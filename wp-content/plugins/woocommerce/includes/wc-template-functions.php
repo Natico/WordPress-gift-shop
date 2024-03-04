@@ -998,16 +998,25 @@ if ( ! function_exists( 'woocommerce_content' ) ) {
 
 				<?php do_action( 'woocommerce_before_shop_loop' ); ?>
 
-				<?php woocommerce_product_loop_start(); ?>
+				<?php woocommerce_product_loop_start_for_product(); ?>
 
-				<?php if ( wc_get_loop_prop( 'total' ) ) : ?>
-					<?php while ( have_posts() ) : ?>
-						<?php the_post(); ?>
-						<?php wc_get_template_part( 'content', 'product' ); ?>
-					<?php endwhile; ?>
-				<?php endif; ?>
+					<?php if ( wc_get_loop_prop( 'total' ) ) : ?>
+					
+						<div class="only-product" >
 
-				<?php woocommerce_product_loop_end(); ?>
+							<?php while ( have_posts() ) : ?>
+								
+								<?php the_post(); ?>
+								
+								<?php wc_get_template_part( 'content', 'product' ); ?>
+
+								
+							<?php endwhile; ?>
+								
+						</div>
+					<?php endif; ?>
+
+				<?php woocommerce_product_loop_end_for_product(); ?>
 
 				<?php do_action( 'woocommerce_after_shop_loop' ); ?>
 
@@ -1198,6 +1207,57 @@ if ( ! function_exists( 'woocommerce_template_loop_category_title' ) ) {
 		</h2>
 		<?php
 	}
+}
+
+/** start override */
+if ( ! function_exists( 'woocommerce_product_loop_start_for_product' ) ) {
+
+    /**
+     * Output the start of a product loop. By default this is a UL.
+     *
+     * @param bool $echo Should echo?.
+     * @return string
+     */
+    function woocommerce_product_loop_start_for_product( $echo = true ) {
+        ob_start();
+
+        wc_set_loop_prop( 'loop', 0 );
+
+        wc_get_template( 'loop/loop-start.php' );
+
+        $loop_start = apply_filters( 'woocommerce_product_loop_start_for_product', ob_get_clean() );
+
+        if ( $echo ) {
+            //phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+            echo $loop_start;
+        } else {
+            return $loop_start;
+        }
+    }
+}
+
+if ( ! function_exists( 'woocommerce_product_loop_end_for_product' ) ) {
+
+    /**
+     * Output the end of a product loop. By default this is a UL.
+     *
+     * @param bool $echo Should echo?.
+     * @return string
+     */
+    function woocommerce_product_loop_end_for_product( $echo = true ) {
+        ob_start();
+
+        wc_get_template( 'loop/loop-end.php' );
+
+        $loop_end = apply_filters( 'woocommerce_product_loop_end_for_product', ob_get_clean() );
+
+        if ( $echo ) {
+            // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+            echo $loop_end;
+        } else {
+            return $loop_end;
+        }
+    }
 }
 
 if ( ! function_exists( 'woocommerce_template_loop_product_link_open' ) ) {
