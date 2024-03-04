@@ -986,6 +986,9 @@ if ( ! function_exists( 'woocommerce_content' ) ) {
 		} else {
 			?>
 
+			<?php woocommerce_product_loop_start(); ?>
+            <?php woocommerce_product_loop_end(); ?>
+
 			<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
 				<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
@@ -1000,8 +1003,9 @@ if ( ! function_exists( 'woocommerce_content' ) ) {
 
 					<?php woocommerce_product_loop_start_for_product(); ?>
 
-						<?php if ( wc_get_loop_prop( 'total' ) ) : ?>
-						
+					
+					<?php if ( wc_get_loop_prop( 'total' ) ) : ?>
+												
 							<div class="only-product" >
 
 								<?php while ( have_posts() ) : ?>
