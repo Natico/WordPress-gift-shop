@@ -1,0 +1,1148 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 12:45:42
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |Linux
+PHP VERSION_________: 8.2.0                                 |7.4.33
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.33 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/tvlfrjks/public_html"
+REQUEST URL_________: "https://puzzletrade.ir"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: http://localhost/wplast/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/tvlfrjks/public_html"
+URL_NEW_____________: "https://puzzletrade.ir"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/tvlfrjks/public_html/20240102_ernykagiftcardshop_[HASH]_20240302114902_archive.zip"
+ARCHIVE SIZE________: 77.68MB
+CREATED_____________: 2024-03-02 11:49:02
+WP VERSION__________: 6.4.3
+DUP VERSION_________: 1.5.8
+LICENSE_____________: Free version
+DB VERSION__________: 8.0.31
+DB FILE SIZE________: 2.65MB
+DB TABLES___________: 60
+DB ROWS_____________: 2495
+URL HOME____________: http://localhost/wplast
+URL CORE____________: http://localhost/wplast
+URL CONTENT_________: http://localhost/wplast/wp-content
+URL UPLOAD__________: http://localhost/wplast/wp-content/uploads
+URL PLUGINS_________: http://localhost/wplast/wp-content/plugins
+URL MU PLUGINS______: http://localhost/wplast/wp-content/mu-plugins
+URL THEMES__________: http://localhost/wplast/wp-content/themes
+PATH HOME___________: C:/wamp64/www/wplast
+PATH ABS____________: C:/wamp64/www/wplast
+PATH WPCONFIG_______: C:/wamp64/www/wplast
+PATH WPCONTENT______: C:/wamp64/www/wplast/wp-content
+PATH UPLOADS________: C:/wamp64/www/wplast/wp-content/uploads
+PATH PLUGINS________: C:/wamp64/www/wplast/wp-content/plugins
+PATH MUPLUGINS______: C:/wamp64/www/wplast/wp-content/mu-plugins
+PATH THEMES_________: C:/wamp64/www/wplast/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "localhost/wplast/"
+
+PLUGINS
+PLUGIN [SLUG:ajax-login-and-registration-modal-popup/ajax-login-registration-modal-popup.php][ON:false]  AJAX Login and Registration modal popup + inline form
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-spam: Spam Protection
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:hello.php                                         ][ON:false]  Hello Dolly
+PLUGIN [SLUG:license-manager-for-woocommerce/license-manager-for-woocommerce.php][ON:true ]  License Manager for WooCommerce
+PLUGIN [SLUG:loco-translate/loco.php                           ][ON:true ]  Loco Translate
+PLUGIN [SLUG:one-click-demo-import/one-click-demo-import.php   ][ON:true ]  One Click Demo Import
+PLUGIN [SLUG:reloadly-topup-widget/reloadly_widget.php         ][ON:true ]  Reloadly Plugin
+PLUGIN [SLUG:themefarmer-companion/themefarmer-companion.php   ][ON:true ]  ThemeFarmer Companion
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:woo-easy-duplicate-product/index.php              ][ON:true ]  WooCommerce Easy Duplicate Product
+PLUGIN [SLUG:woo-tools/woo-tools.php                           ][ON:true ]  WooCommerce Tools
+PLUGIN [SLUG:zarinpal-woocommerce-payment-gateway/index.php    ][ON:true ]  افزونه پرداخت امن زرین‌پال برای ووکامرس
+PLUGIN [SLUG:mellat-woocommerce/index.php                      ][ON:true ]  درگاه پرداخت بانک ملت افزونه ووکامرس نسخه رایگان
+PLUGIN [SLUG:payir-woocommerce/index.php                       ][ON:true ]  درگاه پی برای ووکامرس
+
+********************************************************************************
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.13387]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+[PHP ERR][E_UNKNOWN CODE: 32] MSG:Module 'igbinary' already loaded [CODE:32|FILE:Unknown|LINE:0]
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.09296]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00028]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/tvlfrjks/public_html"
+--------------------------------------
+[PHP ERR][E_WARNING] MSG:opendir(/home/tvlfrjks/public_html/alpha/): failed to open dir: Permission denied [CODE:2|FILE:/home/tvlfrjks/public_html/dup-installer/libs/Snap/SnapIO.php|LINE:1445]
+LOG-TIME[DELTA:   0.68982]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00073]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01545]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01790]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00075]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00674]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00063]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00038]  MESSAGE:TEST "Privileges: User Visibility" RESULT: failed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Privileges: User Resources" RESULT: skip
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Privileges: User Table Access" RESULT: skip
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: skip
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: skip
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Character Set and Collation Support" RESULT: skip
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: skip
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Prefix too long" RESULT: skip
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+[PHP ERR][E_UNKNOWN CODE: 32] MSG:Module 'igbinary' already loaded [CODE:32|FILE:Unknown|LINE:0]
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.07004]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/tvlfrjks/public_html"
+--------------------------------------
+[PHP ERR][E_WARNING] MSG:opendir(/home/tvlfrjks/public_html/alpha/): failed to open dir: Permission denied [CODE:2|FILE:/home/tvlfrjks/public_html/dup-installer/libs/Snap/SnapIO.php|LINE:1445]
+LOG-TIME[DELTA:   0.80636]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01500]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01770]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00076]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00667]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00075]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00042]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00054]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00448]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/tvlfrjks/public_html/dup-installer/classes/database/class.db.php:645] MSG: SELECT command denied to user 'tvlfrjks_puzzel'@'localhost' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'tvlfrjks_puzzel' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/tvlfrjks/public_html/dup-installer/classes/validation/class.validation.database.service.php[742]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/tvlfrjks/public_html/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/tvlfrjks/public_html/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/tvlfrjks/public_html/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/tvlfrjks/public_html/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/tvlfrjks/public_html/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/tvlfrjks/public_html/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/tvlfrjks/public_html/dup-installer/main.installer.php[56]
+
+LOG-TIME[DELTA:   0.00072]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+GRANTS LINE OF CURRENT DB NOT FOUND
+GRANTS LINE OF CURRENT DB NOT FOUND
+LOG-TIME[DELTA:   0.19017]  MESSAGE:TEST "Privileges: User Table Access" RESULT: hard warning
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00387]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00691]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00392]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00031]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home/tvlfrjks/public_html"
+--------------------------------------
+[PHP ERR][E_WARNING] MSG:opendir(/home/tvlfrjks/public_html/alpha/): failed to open dir: Permission denied [CODE:2|FILE:/home/tvlfrjks/public_html/dup-installer/libs/Snap/SnapIO.php|LINE:1445]
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 12:46:54
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Ernyka Gift Card Shop"
+HOME URL NEW________: "https://puzzletrade.ir"
+SITE URL NEW________: "https://puzzletrade.ir"
+CONTENT URL NEW_____: "https://puzzletrade.ir/wp-content"
+UPLOAD URL NEW______: "https://puzzletrade.ir/wp-content/uploads"
+PLUGINS URL NEW_____: "https://puzzletrade.ir/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://puzzletrade.ir/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/tvlfrjks/public_html"
+SITE PATH NEW_______: "/home/tvlfrjks/public_html"
+CONTENT PATH NEW____: "/home/tvlfrjks/public_html/wp-content"
+UPLOAD PATH NEW_____: "/home/tvlfrjks/public_html/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/tvlfrjks/public_html/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/tvlfrjks/public_html/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home/tvlfrjks/public_html/dup-installer"
+	DIR : "/home/tvlfrjks/public_html/wp1"
+	DIR : "/home/tvlfrjks/public_html/wp2"
+	FILE: "/home/tvlfrjks/public_html/20240102_ernykagiftcardshop_[HASH]_20240302114902_installer-backup.php"
+	FILE: "/home/tvlfrjks/public_html/20240102_ernykagiftcardshop_[HASH]_20240302114902_archive.zip"
+	FILE: "/home/tvlfrjks/public_html/installer.php"
+	FILE: "/home/tvlfrjks/public_html/dup-installer-bootlog__67829f2-02114902.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20240102_ernykagiftcardshop_[HASH]_20240302114902_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0058 sec. - Files processed: 13,529 of 16,196
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13529
+--------------------------------------
+PATHS MAPPING : "/home/tvlfrjks/public_html"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 16803
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 12:47:01 - RUNTIME: 7.5040 sec. - Files processed: 16,196 of 16,196
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wpgift_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 12:47:01
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wpgift_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wpgift_actionscheduler_actions"__________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wpgift_actionscheduler_actions]
+TABLE "wpgift_actionscheduler_claims"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_actionscheduler_claims]
+TABLE "wpgift_actionscheduler_groups"___________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wpgift_actionscheduler_groups]
+TABLE "wpgift_actionscheduler_logs"_____________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wpgift_actionscheduler_logs]
+TABLE "wpgift_commentmeta"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_commentmeta]
+TABLE "wpgift_comments"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_comments]
+TABLE "wpgift_duplicator_packages"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpgift_duplicator_packages]
+TABLE "wpgift_e_events"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_e_events]
+TABLE "wpgift_links"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_links]
+TABLE "wpgift_lmfwc_activations"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_lmfwc_activations]
+TABLE "wpgift_lmfwc_api_keys"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_lmfwc_api_keys]
+TABLE "wpgift_lmfwc_generators"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_lmfwc_generators]
+TABLE "wpgift_lmfwc_licenses"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_lmfwc_licenses]
+TABLE "wpgift_lmfwc_licenses_meta"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_lmfwc_licenses_meta]
+TABLE "wpgift_options"__________________________________[ROWS:     444] [EXTRACT|REPLACE] [INST NAME: wpgift_options]
+TABLE "wpgift_postmeta"_________________________________[ROWS:    1496] [EXTRACT|REPLACE] [INST NAME: wpgift_postmeta]
+TABLE "wpgift_posts"____________________________________[ROWS:     135] [EXTRACT|REPLACE] [INST NAME: wpgift_posts]
+TABLE "wpgift_reloadly_widget_table"____________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpgift_reloadly_widget_table]
+TABLE "wpgift_term_relationships"_______________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: wpgift_term_relationships]
+TABLE "wpgift_term_taxonomy"____________________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: wpgift_term_taxonomy]
+TABLE "wpgift_termmeta"_________________________________[ROWS:      45] [EXTRACT|REPLACE] [INST NAME: wpgift_termmeta]
+TABLE "wpgift_terms"____________________________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: wpgift_terms]
+TABLE "wpgift_tfwctool_wishlist_items"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_tfwctool_wishlist_items]
+TABLE "wpgift_tfwctool_wishlist_lists"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_tfwctool_wishlist_lists]
+TABLE "wpgift_usermeta"_________________________________[ROWS:      46] [EXTRACT|REPLACE] [INST NAME: wpgift_usermeta]
+TABLE "wpgift_users"____________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wpgift_users]
+TABLE "wpgift_wc_admin_note_actions"____________________[ROWS:      86] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_admin_note_actions]
+TABLE "wpgift_wc_admin_notes"___________________________[ROWS:      54] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_admin_notes]
+TABLE "wpgift_wc_category_lookup"_______________________[ROWS:      21] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_category_lookup]
+TABLE "wpgift_wc_customer_lookup"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_customer_lookup]
+TABLE "wpgift_wc_download_log"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_download_log]
+TABLE "wpgift_wc_order_addresses"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_order_addresses]
+TABLE "wpgift_wc_order_coupon_lookup"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_order_coupon_lookup]
+TABLE "wpgift_wc_order_operational_data"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_order_operational_data]
+TABLE "wpgift_wc_order_product_lookup"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_order_product_lookup]
+TABLE "wpgift_wc_order_stats"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_order_stats]
+TABLE "wpgift_wc_order_tax_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_order_tax_lookup]
+TABLE "wpgift_wc_orders"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_orders]
+TABLE "wpgift_wc_orders_meta"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_orders_meta]
+TABLE "wpgift_wc_product_attributes_lookup"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_product_attributes_lookup]
+TABLE "wpgift_wc_product_download_directories"__________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_product_download_directories]
+TABLE "wpgift_wc_product_meta_lookup"___________________[ROWS:      69] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_product_meta_lookup]
+TABLE "wpgift_wc_rate_limits"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_rate_limits]
+TABLE "wpgift_wc_reserved_stock"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_reserved_stock]
+TABLE "wpgift_wc_tax_rate_classes"______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_tax_rate_classes]
+TABLE "wpgift_wc_webhooks"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_wc_webhooks]
+TABLE "wpgift_woocommerce_api_keys"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_api_keys]
+TABLE "wpgift_woocommerce_attribute_taxonomies"_________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_attribute_taxonomies]
+TABLE "wpgift_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_downloadable_product_permissions]
+TABLE "wpgift_woocommerce_log"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_log]
+TABLE "wpgift_woocommerce_order_itemmeta"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_order_itemmeta]
+TABLE "wpgift_woocommerce_order_items"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_order_items]
+TABLE "wpgift_woocommerce_payment_tokenmeta"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_payment_tokenmeta]
+TABLE "wpgift_woocommerce_payment_tokens"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_payment_tokens]
+TABLE "wpgift_woocommerce_sessions"_____________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_sessions]
+TABLE "wpgift_woocommerce_shipping_zone_locations"______[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_shipping_zone_locations]
+TABLE "wpgift_woocommerce_shipping_zone_methods"________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_shipping_zone_methods]
+TABLE "wpgift_woocommerce_shipping_zones"_______________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_shipping_zones]
+TABLE "wpgift_woocommerce_tax_rate_locations"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_tax_rate_locations]
+TABLE "wpgift_woocommerce_tax_rates"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpgift_woocommerce_tax_rates]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.35 -- Build Server: 8.0.31
+FILE SIZE:	dup-database__[HASH].sql (1.52MB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`tvlfrjks_puzzel`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1530478
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	2581
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wpgift_actionscheduler_actions"__________________[ROWS:     3]
+TABLE "wpgift_actionscheduler_claims"___________________[ROWS:     0]
+TABLE "wpgift_actionscheduler_groups"___________________[ROWS:     5]
+TABLE "wpgift_actionscheduler_logs"_____________________[ROWS:     7]
+TABLE "wpgift_commentmeta"______________________________[ROWS:     0]
+TABLE "wpgift_comments"_________________________________[ROWS:     0]
+TABLE "wpgift_duplicator_packages"______________________[ROWS:     1]
+TABLE "wpgift_e_events"_________________________________[ROWS:     0]
+TABLE "wpgift_links"____________________________________[ROWS:     0]
+TABLE "wpgift_lmfwc_activations"________________________[ROWS:     0]
+TABLE "wpgift_lmfwc_api_keys"___________________________[ROWS:     0]
+TABLE "wpgift_lmfwc_generators"_________________________[ROWS:     0]
+TABLE "wpgift_lmfwc_licenses"___________________________[ROWS:     0]
+TABLE "wpgift_lmfwc_licenses_meta"______________________[ROWS:     0]
+TABLE "wpgift_options"__________________________________[ROWS:   445]
+TABLE "wpgift_postmeta"_________________________________[ROWS:  1496]
+TABLE "wpgift_posts"____________________________________[ROWS:   135]
+TABLE "wpgift_reloadly_widget_table"____________________[ROWS:     1]
+TABLE "wpgift_term_relationships"_______________________[ROWS:    34]
+TABLE "wpgift_term_taxonomy"____________________________[ROWS:    29]
+TABLE "wpgift_termmeta"_________________________________[ROWS:    45]
+TABLE "wpgift_terms"____________________________________[ROWS:    29]
+TABLE "wpgift_tfwctool_wishlist_items"__________________[ROWS:     0]
+TABLE "wpgift_tfwctool_wishlist_lists"__________________[ROWS:     0]
+TABLE "wpgift_usermeta"_________________________________[ROWS:    46]
+TABLE "wpgift_users"____________________________________[ROWS:     2]
+TABLE "wpgift_wc_admin_note_actions"____________________[ROWS:    86]
+TABLE "wpgift_wc_admin_notes"___________________________[ROWS:    54]
+TABLE "wpgift_wc_category_lookup"_______________________[ROWS:    21]
+TABLE "wpgift_wc_customer_lookup"_______________________[ROWS:     1]
+TABLE "wpgift_wc_download_log"__________________________[ROWS:     0]
+TABLE "wpgift_wc_order_addresses"_______________________[ROWS:     0]
+TABLE "wpgift_wc_order_coupon_lookup"___________________[ROWS:     0]
+TABLE "wpgift_wc_order_operational_data"________________[ROWS:     0]
+TABLE "wpgift_wc_order_product_lookup"__________________[ROWS:     0]
+TABLE "wpgift_wc_order_stats"___________________________[ROWS:     0]
+TABLE "wpgift_wc_order_tax_lookup"______________________[ROWS:     0]
+TABLE "wpgift_wc_orders"________________________________[ROWS:     0]
+TABLE "wpgift_wc_orders_meta"___________________________[ROWS:     0]
+TABLE "wpgift_wc_product_attributes_lookup"_____________[ROWS:     0]
+TABLE "wpgift_wc_product_download_directories"__________[ROWS:     2]
+TABLE "wpgift_wc_product_meta_lookup"___________________[ROWS:    69]
+TABLE "wpgift_wc_rate_limits"___________________________[ROWS:     0]
+TABLE "wpgift_wc_reserved_stock"________________________[ROWS:     0]
+TABLE "wpgift_wc_tax_rate_classes"______________________[ROWS:     2]
+TABLE "wpgift_wc_webhooks"______________________________[ROWS:     0]
+TABLE "wpgift_woocommerce_api_keys"_____________________[ROWS:     0]
+TABLE "wpgift_woocommerce_attribute_taxonomies"_________[ROWS:     0]
+TABLE "wpgift_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "wpgift_woocommerce_log"__________________________[ROWS:     0]
+TABLE "wpgift_woocommerce_order_itemmeta"_______________[ROWS:     0]
+TABLE "wpgift_woocommerce_order_items"__________________[ROWS:     0]
+TABLE "wpgift_woocommerce_payment_tokenmeta"____________[ROWS:     0]
+TABLE "wpgift_woocommerce_payment_tokens"_______________[ROWS:     0]
+TABLE "wpgift_woocommerce_sessions"_____________________[ROWS:     1]
+TABLE "wpgift_woocommerce_shipping_zone_locations"______[ROWS:     1]
+TABLE "wpgift_woocommerce_shipping_zone_methods"________[ROWS:     1]
+TABLE "wpgift_woocommerce_shipping_zones"_______________[ROWS:     1]
+TABLE "wpgift_woocommerce_tax_rate_locations"___________[ROWS:     0]
+TABLE "wpgift_woocommerce_tax_rates"____________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 5.5293 sec.
+STEP-2 COMPLETE @ 12:47:07 - RUNTIME: 5.5293 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: C:/wamp64/www/wplast REPLACE: /home/tvlfrjks/public_html [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://localhost/wplast REPLACE: https://puzzletrade.ir [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 12:47:07
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:Invalid argument supplied for foreach() [CODE:2|FILE:/home/tvlfrjks/public_html/dup-installer/src/Core/Deploy/Database/DbCleanup.php|LINE:95]
+CLEAN OPTIONS [wpgift_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    82]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wpgift_actionscheduler_actions"__________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wpgift_actionscheduler_claims"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_actionscheduler_groups"___________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wpgift_actionscheduler_logs"_____________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wpgift_commentmeta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_comments"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_duplicator_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_e_events"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_links"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_lmfwc_activations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_lmfwc_api_keys"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_lmfwc_generators"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_lmfwc_licenses"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_lmfwc_licenses_meta"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_options"__________________________________[ROWS:   363][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_options][0]
+
+EVALUATE TABLE: "wpgift_postmeta"_________________________________[ROWS:  1496][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wpgift_postmeta][1]
+
+EVALUATE TABLE: "wpgift_posts"____________________________________[ROWS:   135][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_posts][0]
+
+EVALUATE TABLE: "wpgift_reloadly_widget_table"____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_reloadly_widget_table][0]
+
+EVALUATE TABLE: "wpgift_term_relationships"_______________________[ROWS:    34][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_term_taxonomy"____________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_term_taxonomy][0]
+
+EVALUATE TABLE: "wpgift_termmeta"_________________________________[ROWS:    45][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_termmeta][0]
+
+EVALUATE TABLE: "wpgift_terms"____________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_terms][0]
+
+EVALUATE TABLE: "wpgift_tfwctool_wishlist_items"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_tfwctool_wishlist_lists"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_usermeta"_________________________________[ROWS:    46][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_usermeta][0]
+
+EVALUATE TABLE: "wpgift_users"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_users][0]
+
+EVALUATE TABLE: "wpgift_wc_admin_note_actions"____________________[ROWS:    86][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wpgift_wc_admin_notes"___________________________[ROWS:    54][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_wc_admin_notes][0]
+
+EVALUATE TABLE: "wpgift_wc_category_lookup"_______________________[ROWS:    21][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_customer_lookup"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_wc_customer_lookup][0]
+
+EVALUATE TABLE: "wpgift_wc_download_log"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_order_addresses"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_order_coupon_lookup"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_order_operational_data"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_order_product_lookup"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_order_stats"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_order_tax_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_orders"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_orders_meta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_product_attributes_lookup"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_product_download_directories"__________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_wc_product_download_directories][0]
+
+EVALUATE TABLE: "wpgift_wc_product_meta_lookup"___________________[ROWS:    69][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "wpgift_wc_rate_limits"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_reserved_stock"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_wc_tax_rate_classes"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wpgift_wc_webhooks"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_woocommerce_api_keys"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_woocommerce_attribute_taxonomies"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_woocommerce_log"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_woocommerce_order_itemmeta"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_woocommerce_order_items"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_woocommerce_payment_tokenmeta"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_woocommerce_payment_tokens"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_woocommerce_sessions"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wpgift_woocommerce_shipping_zone_locations"______[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_woocommerce_shipping_zone_locations][0]
+
+EVALUATE TABLE: "wpgift_woocommerce_shipping_zone_methods"________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_woocommerce_shipping_zone_methods][0]
+
+EVALUATE TABLE: "wpgift_woocommerce_shipping_zones"_______________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/wamp64/www/wplast" ============================> "/home/tvlfrjks/public_html"
+	SEARCH[urlnd]  2:"http://localhost/wplast" =========================> "https://puzzletrade.ir"
+	CHUNK ACTION: CURRENT [search_replace][wpgift_woocommerce_shipping_zones][0]
+
+EVALUATE TABLE: "wpgift_woocommerce_tax_rate_locations"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpgift_woocommerce_tax_rates"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:60 	|	 Rows:2379 	|	 Cells:14002 
+UPDATED:	Tables:5 	|	 Rows:178 	|	 Cells:179 
+ERRORS:		0 
+RUNTIME:	1.270200 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/tvlfrjks/public_html/wp-config.php
+New htaccess file created:/home/tvlfrjks/public_html/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""tvlfrjks_gswp0""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/tvlfrjks/public_html"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:47:08 - RUNTIME: 1.5616 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[/home/tvlfrjks/public_html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.04047]  MESSAGE:END RENDER PAGE

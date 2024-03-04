@@ -1,0 +1,1025 @@
+# Translation of Plugins - AJAX Login and Registration modal popup + inline form - Development (trunk) in Persian
+# This file is distributed under the same license as the Plugins - AJAX Login and Registration modal popup + inline form - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-24 08:34:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - AJAX Login and Registration modal popup + inline form - Development (trunk)\n"
+
+#: includes/class-settings.php:1085
+msgid "Secure the form with the Honeypot?"
+msgstr "فرم را با Honeypot ایمن کنید؟"
+
+#: includes/class-settings.php:982 includes/class-settings.php:983
+msgid "Password confirmation"
+msgstr "تایید رمز عبور"
+
+#: includes/class-settings.php:812
+msgid "Please agree with the terms to continue!"
+msgstr "برای ادامه لطفا با مقررات سایت موافقت نمایید!"
+
+#: includes/class-settings.php:789
+msgid "Please select a Role"
+msgstr "لطفا یک نقشی را انتخاب کنید"
+
+#: includes/class-settings.php:782
+msgid "Select a Role"
+msgstr "انتخاب نقش"
+
+#: includes/class-settings.php:705
+msgid "Unknown email address. Check again or try your username"
+msgstr "آدرس ایمیل ناشناس. دوباره بررسی نمایید یا از نام کاربری خود استفاده کنید."
+
+#: includes/class-settings.php:691 includes/class-settings.php:698
+msgid "Unknown username. Check again or try your email address."
+msgstr "نام کاربری ناشناس. دوباره بررسی نمایید یا از آدرس ایمیل خود استفاده کنید. "
+
+#: includes/class-settings.php:690
+msgid "Message: Invalid login (NOT IN USE ANYMORE!)"
+msgstr "پیام: خطا در ورود (مجددا استفاده نکنید!)"
+
+#: includes/class-settings.php:704
+msgid "Message: Invalid email address"
+msgstr "پیام: آدرس ایمیل نادرست"
+
+#: includes/class-settings.php:697
+msgid "Message: Invalid username"
+msgstr "پیام: نام کاربری نادرست"
+
+#: includes/class-settings.php:892
+msgid "Reset password"
+msgstr "بازیابی رمز عبور"
+
+#: includes/class-settings.php:358
+msgid "Submit button style"
+msgstr "استایل کلید تایید"
+
+#: includes/class-settings.php:997
+msgid "Error: Your password is very weak!"
+msgstr "خطا: رمز عبور شما خیلی ضعیف است"
+
+#: includes/class-settings.php:996
+msgid "Your password is very weak"
+msgstr "رمز عبور شما خیلی ضعیف است"
+
+#: includes/class-redirects-manager.php:95
+msgid "Redirect to (only if \"Redirect to a page and auto-login [PRO]\" or \"Email verification [PRO] + redirect\" selected)"
+msgstr "تغییر مسیر به (فقط در صورت انتخاب \"تغییر مسیر به صفحه و ورود خودکار [PRO]\" یا \"تأیید ایمیل [PRO] + تغییر مسیر\" انتخاب شده)"
+
+#: includes/class-settings.php:989
+msgid "Confirm use of weak password (reset password page)"
+msgstr "تایید استفاده از رمز عبور ضعیف (صفحه بازیابی رمز)"
+
+#: includes/class-settings.php:434
+msgid "It's disabled to avoid conflicts (unwanted redirects, etc) with some plugins. But this causes that some things like \"last login time\" doesn't work."
+msgstr "برای جلوگیری از بروز خطا (تغییر مسیرهای ناخواسته و غیره) با برخی از افزونه ها غیرفعال است. اما این باعث می شود برخی موارد مانند \"آخرین زمان ورود به سیستم\" کارایی نداشته باشد."
+
+#: includes/class-settings.php:433
+msgid "Enable the \"wp_login\" action"
+msgstr "عملکرد \"wp_login\" را فعال کنید"
+
+#: includes/class-settings.php:430
+msgid "Troubleshooting"
+msgstr "عیب یابی"
+
+#: includes/class-settings.php:344
+msgid "Hide the tabs (Login/Register)"
+msgstr "مخفی کردن زبانه ها (ورود/عضویت)"
+
+#: includes/class-settings.php:966
+msgid "Password reset link login is missing"
+msgstr "لینک ورود به تنظیم مجدد رمز عبور وجود ندارد"
+
+#: includes/class-settings.php:959
+msgid "Password reset link key is missing"
+msgstr "کلید ورود به تنظیم مجدد رمز عبور وجود ندارد"
+
+#: includes/class-settings.php:552 includes/class-settings.php:592
+msgid "Send to email"
+msgstr "ارسال به ایمیل"
+
+#. Description of the plugin
+msgid "Easy to integrate modal with Login and Registration features + inline form using shortcode."
+msgstr "ادغام ساده با ویژگی های ورود به سیستم و عضویت + فرم درون خطی، با استفاده از کد کوتاه"
+
+#: includes/class-roles-manager.php:48
+msgid "Enable silent role assign?"
+msgstr "اختصاص نقش بی صدا فعال شود؟"
+
+#: includes/class-roles-manager.php:35
+msgid "Active roles:"
+msgstr "نقش های فعال:"
+
+#: includes/class-roles-manager.php:27
+msgid "This will add a roles dropdown to the registration form."
+msgstr "این یک لیست کشویی نقش به فرم ثبت نام اضافه می کند."
+
+#: includes/class-roles-manager.php:26
+msgid "Enable User role selector?"
+msgstr "انتخاب نقش کاربر فعال شود؟"
+
+#: includes/class-roles-manager.php:23
+msgid "User role selector during Registration"
+msgstr "انتخاب نقش کاربر در هنگام ثبت نام"
+
+#: includes/class-roles-manager.php:21
+msgid "Registration User role  > PRO"
+msgstr "نقش کاربر ثبت نام کننده > PRO"
+
+#: includes/class-import-export.php:44
+msgid "Import following sections:"
+msgstr "بخشهای زیر را وارد کنید:"
+
+#: includes/class-import-export.php:37
+msgid "Here you could simply export and import your plugin settings for backup or migrate to the another website."
+msgstr "در اینجا می توانید تنظیمات افزونه خود را برای تهیه نسخه پشتیبان صادر یا وارد کنید یا به وب سایت دیگری مهاجرت کنید."
+
+#: includes/class-import-export.php:31
+msgid "Export following sections:"
+msgstr "بخشهای زیر را صادر کنید:"
+
+#: includes/class-settings.php:1168
+msgid "Match Captcha"
+msgstr "مطابقت دهی Captcha"
+
+#: includes/class-settings.php:788
+msgid "Form: User Role is missing"
+msgstr "فرم: نقش کاربر وجود ندارد"
+
+#: includes/class-settings.php:781
+msgid "Form: User Role"
+msgstr "فرم: نقش کاربر"
+
+#: includes/class-settings.php:327
+msgid "Select icons type"
+msgstr "انتخاب نوع آیکن ها"
+
+#: includes/class-roles-manager.php:49
+msgid "<strong>Modal:</strong> With this option you could add a \"data\" attributes to your registration button for auto-assign user-role and probably hide role selector from the user."
+msgstr "<strong>Modal:</strong> با استفاده از این گزینه می توانید ویژگی های \"data\" را برای تعیین خودکار نقش کاربر به دکمه ثبت نام خود اضافه کنید و احتمالاً انتخاب کننده نقش را از کاربر پنهان کنید."
+
+#: includes/class-import-export.php:28
+msgid "Export"
+msgstr "برون بری"
+
+#: includes/class-import-export.php:40
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: includes/class-import-export.php:26
+msgid "Import/Export"
+msgstr "درون ریزی/برون ریزی"
+
+#: includes/class-settings.php:811
+msgid "Message: Must agree with the terms"
+msgstr "پیام: با مقررات سایت موافقت کنید"
+
+#: includes/class-settings.php:422
+msgid "Enable debug mode for public AJAX requests. Required to simply find an error messages."
+msgstr "حالت اشکال زدایی را برای درخواستهای AJAX عمومی فعال کنید. برای یافتن پیام های خطا به سادگی مورد نیاز است."
+
+#: includes/class-settings.php:419
+msgid "Debug"
+msgstr "اشکال زدایی"
+
+#: includes/class-settings.php:423
+msgid "Please disable it once problem was solved to improve security!"
+msgstr "لطفاً پس از حل مشکل برای بهبود امنیت، آن را غیرفعال کنید!"
+
+#: includes/class-settings.php:1025
+msgid "Passwords is mismatch!"
+msgstr "پسوردها یکسان نیستند"
+
+#: includes/class-settings.php:1031
+msgid "Message: Strong Password"
+msgstr "رمز عبور وارد شده قوی است"
+
+#: includes/class-settings.php:1032
+msgid "Strong Password"
+msgstr "رمز عبور قوی"
+
+#: includes/class-settings.php:1011
+msgid "Good Password"
+msgstr "رمز عبور مناسب"
+
+#: includes/class-settings.php:1018
+msgid "Bad Password"
+msgstr "رمز عبور نامناسب"
+
+#: includes/class-settings.php:1024
+msgid "Message: Mismatch"
+msgstr "عدم تطابق پسوردها"
+
+#: includes/class-settings.php:990
+msgid "Confirm use of weak password"
+msgstr "تایید استفاده از رمز عبور ضعیف"
+
+#: skins/default/skin.php:28
+msgid "Open modal >>"
+msgstr "باز کردن modal >>"
+
+#: skins/default/skin.php:27
+msgid "Display modal for customize"
+msgstr "نمایش حالت سفارشی"
+
+#: skins/add-customizer-panel.php:12
+msgid "Theme palette"
+msgstr "پالت تم"
+
+#: includes/class-ajax.php:780
+msgid "Your password reset link has expired."
+msgstr "لینک بازنشانی گذرواژه شما منقضی شده است."
+
+#: includes/class-ajax.php:777
+msgid "Your password reset link appears to be invalid."
+msgstr "به نظر می رسد لینک تنظیم مجدد رمز عبور شما نامعتبر است."
+
+#: includes/class-ajax.php:773
+msgid "Please <a href=\"%s\" class=\"lrm-forgot-password\">request a new link.</a>"
+msgstr "لطفا <a href=\"%s\" class=\"lrm-forgot-password\">درخواست لینک جدید دهید.</a>"
+
+#: includes/class-settings.php:967
+msgid "Your password reset link login is missing."
+msgstr "لینک ورود به تنظیم مجدد رمز عبور شما وجود ندارد."
+
+#: includes/class-settings.php:960
+msgid "Your password reset link key is missing."
+msgstr "کلید لینک تنظیم مجدد رمز عبور شما موجود نیست."
+
+#: includes/class-ajax.php:722
+msgid "Your password has been reset."
+msgstr "گذرواژه شما بازنشانی شد"
+
+#: includes/class-redirects-manager.php:123
+msgid "Custom page redirect"
+msgstr "تغییر مسیر صفحه سفارشی"
+
+#: includes/class-redirects-manager.php:108
+msgid "Action after Logout"
+msgstr "اقدام پس از خروج از سیستم"
+
+#: includes/class-redirects-manager.php:105
+msgid "After-Logout actions"
+msgstr "اقدامات پس از خروج از سیستم"
+
+#: includes/class-redirects-manager.php:89
+msgid "Select an action"
+msgstr "گزینه ای را انتخاب کنید"
+
+#: includes/class-redirects-manager.php:79
+msgid "Action when the user click a verification link from Email verification [PRO]?"
+msgstr "اقدام وقتی که کاربر از طریق تأیید نامه ایمیل روی پیوند تأیید کلیک می کند [PRO]؟"
+
+#: includes/class-redirects-manager.php:60
+msgid "Action after registration"
+msgstr "اقدام پس از عضویت"
+
+#: includes/class-redirects-manager.php:57
+msgid "After-Registration actions"
+msgstr "اقدامات پس از عضویت"
+
+#: includes/class-redirects-manager.php:45
+msgid "Redirect to (if \"Redirect to page [PRO]\" is selected)"
+msgstr "تغییر مسیر به (اگر \"تغییر مسیر به صفحه [PRO]\" انتخاب شده است)"
+
+#: includes/class-redirects-manager.php:28
+msgid "Action after login"
+msgstr "اقدام پس از ورود"
+
+#: includes/class-redirects-manager.php:25
+msgid "After-Login actions"
+msgstr "اقدامات پس از ورود"
+
+#: includes/class-redirects-manager.php:21
+msgid "Actions / Redirects"
+msgstr "اقدامات / تغییر مسیرها"
+
+#: includes/class-settings.php:1166
+msgid "Find them here: https://www.google.com/recaptcha/admin"
+msgstr "آنها را در اینجا پیدا کنید: https://www.google.com/recaptcha/admin"
+
+#: includes/class-settings.php:1161
+msgid "Secret key"
+msgstr "کلید امنیتی"
+
+#: includes/class-settings.php:1154
+msgid "Site key"
+msgstr "کلید سایت"
+
+#: includes/class-pages-manager.php:93
+msgid "Restore password page"
+msgstr "صفحه گذرواژه را بازیابی کنید"
+
+#: includes/class-pages-manager.php:90
+msgid "Restore password"
+msgstr "بازیابی گذرواژه"
+
+#: includes/class-pages-manager.php:85
+msgid "Please make sure that page content contains shortcode:<br> <code>[lrm_form default_tab=\"register\" logged_in_message=\"You are currently logged in!\"]</code>"
+msgstr "لطفاً مطمئن شوید که محتوای صفحه حاوی کد کوتاه است: <br> <code>[lrm_form default_tab=\"register\" logged_in_message=\"در حال حاضر وارد سیستم شدید\"]</code>"
+
+#: includes/class-pages-manager.php:80
+msgid "Registration page"
+msgstr "صفحه عضویت"
+
+#: includes/class-pages-manager.php:68
+msgid "Please make sure that page content contains shortcode:<br> <code>[lrm_form default_tab=\"login\" logged_in_message=\"You are currently logged in!\"]</code>"
+msgstr "لطفاً مطمئن شوید که محتوای صفحه حاوی کد کوتاه است: <br> <code>[lrm_form default_tab=\"login\" logged_in_message=\"در حال حاضر وارد سیستم شدید\"]</code>"
+
+#: includes/class-pages-manager.php:63
+msgid "Login page"
+msgstr "صفحه ورود"
+
+#: includes/class-pages-manager.php:55
+msgid "Pages"
+msgstr "برگه‌ها"
+
+#: includes/class-settings.php:1017
+msgid "Message: Bad Password"
+msgstr "پیام: رمز عبور بد"
+
+#: includes/class-settings.php:1010
+msgid "Message: Good Password"
+msgstr "پیام: رمز عبور مناسب"
+
+#: includes/class-settings.php:1004
+msgid "Password is missing!"
+msgstr "رمز عبور وجود ندارد!"
+
+#: includes/class-settings.php:1003
+msgid "Message: Password is missing"
+msgstr "پیام: رمز عبور وجود ندارد"
+
+#: includes/class-settings.php:972
+msgid "Password (registration/reset password)"
+msgstr "رمز عبور (عضویت / بازنشانی رمز عبور)"
+
+#: includes/class-settings.php:316
+msgid "Select skin"
+msgstr "انتخاب پوسته"
+
+#: includes/class-settings.php:313
+msgid "Skins (modal design)"
+msgstr "پوسته ها (حالت طراحی)"
+
+#: includes/class-settings.php:309
+msgid "Skins"
+msgstr "پوسته ها"
+
+#: includes/class-pages-manager.php:98
+msgid "Please make sure that page content contains shortcode:<br> <code>[lrm_lostpassword_form logged_in_message=\"You are currently logged in!\"]</code>"
+msgstr "لطفاً مطمئن شوید که محتوای صفحه حاوی کد کوتاه است:<br> <code>[lrm_lostpassword_form logged_in_message=\"در حال حاضر وارد سیستم شدید!\"]</code>"
+
+#: includes/class-settings.php:321
+msgid "In a PRO version you will have <a href=\"%s\" target=\"_blank\">more skins</a>"
+msgstr "در نسخه حرفه ای شما<a href=\"%s\" target=\"_blank\"> پوسته های بیشتر </a> خواهید داشت"
+
+#: includes/class-settings.php:537
+msgid "The email Body to user with new password. Allowed tags: <code>{{USERNAME}}</code>, <code>{{CHANGE_PASSWORD_URL}}</code>, <code>{{SITE_URL}}</code>, <code>{{HOME_URL}}</code>, <code>{{LOGIN_URL}}</code>, <code>{{EMAIL}}</code>, <code>{{FIRST_NAME}}</code>, <code>{{LAST_NAME}}</code>"
+msgstr "بدنه ایمیل کاربر با رمز ورود جدید. برچسب های مجاز: <code>{{USERNAME}}</code>, <code>{{CHANGE_PASSWORD_URL}}</code>, <code>{{SITE_URL}}</code>, <code>{{HOME_URL}}</code>, <code>{{LOGIN_URL}}</code>, <code>{{EMAIL}}</code>, <code>{{FIRST_NAME}}</code>, <code>{{LAST_NAME}}</code>"
+
+#: includes/class-settings.php:1148
+msgid "Please make sure that keys is created for the selected reCaptcha type!"
+msgstr "لطفاً مطمئن شوید که کلیدها برای نوع reCaptcha انتخاب شده ایجاد شده اند!"
+
+#: includes/class-settings.php:1140
+msgid "reCaptcha type:"
+msgstr "نوع reCaptcha:"
+
+#: includes/class-settings.php:1127
+msgid "Secure lost password form?"
+msgstr "فرم رمز فراموش شده ایمن است؟"
+
+#: includes/class-settings.php:1118
+msgid "Secure register form?"
+msgstr "فرم ثبت نام امن؟"
+
+#: includes/class-roles-manager.php:29 includes/class-roles-manager.php:55
+#: includes/class-settings.php:352 includes/class-settings.php:425
+#: includes/class-settings.php:436 includes/class-settings.php:1087
+#: includes/class-settings.php:1112 includes/class-settings.php:1120
+#: includes/class-settings.php:1129
+msgid "Yes"
+msgstr "بله"
+
+#: includes/class-settings.php:1110
+msgid "Secure login form?"
+msgstr "فرم ورود به سیستم امن است؟"
+
+#: includes/class-settings.php:1104
+msgid "Ony if you do not have external Captcha plugins."
+msgstr "فقط اگر پلاگین های خارجی Captcha ندارید."
+
+#: includes/class-settings.php:1095
+msgid "How to secure forms?"
+msgstr "چگونه می توان فرم ها را ایمن کرد؟"
+
+#: includes/class-settings.php:1080
+msgid "Security (captcha)"
+msgstr "امنیت (captcha)"
+
+#: includes/class-settings.php:1039
+msgid "Too Short Password"
+msgstr "گذرواژه خیلی کوتاه"
+
+#: includes/class-settings.php:1038
+msgid "Message: Too Short Password"
+msgstr "پیام: گذرواژه خیلی کوتاه"
+
+#: includes/class-redirects-manager.php:73
+msgid "\"Email verification (send password to the email)\" is not effective if the user can set password during registration (in PRO)"
+msgstr "اگر کاربر بتواند در حین ثبت نام رمز عبور تنظیم کند، \"تأیید ایمیل (ارسال رمز عبور به ایمیل)\" مؤثر نخواهد بود (در PRO)"
+
+#: includes/class-settings.php:1137
+msgid "reCaptcha Api Keys"
+msgstr "کلیدهای API ریکپچا"
+
+#: includes/class-pages-manager.php:73
+msgid "Here you could override default WP pages (login, registration, restore password) to your custom pages. "
+msgstr "در اینجا می توانید صفحات پیش فرض WP (ورود به سیستم، ثبت نام، بازیابی رمز عبور) را به صفحات سفارشی خود تغییر دهید."
+
+#: includes/class-settings.php:509
+msgid "Your password is:"
+msgstr "رمز عبور شما هست:"
+
+#: includes/class-settings.php:521
+msgid "{{SITE_NAME}} Your new password"
+msgstr "{{SITE_NAME}} رمز عبور جدید شما"
+
+#: includes/class-settings.php:506
+msgid "You just registered on"
+msgstr "شما فقط ثبت نام کردید"
+
+#: includes/class-settings.php:497
+msgid "{{SITE_NAME}} Your username and password info"
+msgstr "{{SITE_NAME}} اطلاعات نام کاربری و رمز عبور شما"
+
+#: includes/class-settings.php:444
+msgid "Remove all plugin settings on plugin deactivation?"
+msgstr "همه تنظیمات افزونه در غیرفعال سازی پلاگین حذف شود؟"
+
+#: includes/class-settings.php:441
+msgid "Uninstall"
+msgstr "حذف کردن"
+
+#: includes/class-settings.php:224
+msgid "If you need support:"
+msgstr "اگر به پشتیبانی نیاز دارید:"
+
+#: includes/class-settings.php:216
+msgid "How to integrate inline form on your site:"
+msgstr "نحوه ادغام فرم داخلی در سایت خود:"
+
+#: includes/class-settings.php:621
+msgid "Template for HTML emails (text/html format only, not WooCommerce!)"
+msgstr "الگوی ایمیل های HTML (فقط متن / قالب HTML ، نه WooCommerce!)"
+
+#: includes/class-settings.php:446
+msgid "Yes for Free and Pro"
+msgstr "بله رایگان و حرفه ای"
+
+#: includes/class-settings.php:485
+msgid "To enable support of html tags - use text/html email format. More - <a href=\"%1$s\" target=\"_blank\">%1$s</a><br/> Option \"use WooCommerce template\" is experimental feature and could have issues with some WC plugins."
+msgstr "برای فعال کردن پشتیبانی از برچسب های html - از قالب ایمیل / متن HTML استفاده کنید. بیشتر - <a href=\"%1$s\" target=\"_blank\">%1$s</a><br/> گزینه \"استفاده از الگوی WooCommerce\" ویژگی آزمایشی است و می تواند با برخی از افزونه های WC مشکل داشته باشد."
+
+#: includes/class-settings.php:626
+msgid "Put here your custom mail html template + css + tag {{CONTENT}} (required)."
+msgstr "الگوی html ایمیل + برچسب css + ایمیل سفارشی خود را در اینجا قرار دهید (لازم است)."
+
+#: includes/class-settings.php:624
+msgid "HTML email template"
+msgstr "الگوی html ایمیل"
+
+#: includes/class-settings.php:573
+msgid "View:"
+msgstr "بازدید:"
+
+#: includes/class-settings.php:572 includes/class-settings.php:611
+msgid "Email:"
+msgstr "ایمیل:"
+
+#: includes/class-settings.php:508 includes/class-settings.php:571
+#: includes/class-settings.php:610
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#: includes/class-settings.php:570
+msgid "New user just registered on"
+msgstr "کاربر جدید وارد شده است"
+
+#: includes/class-settings.php:561
+msgid "New user registration on your site:"
+msgstr "ثبت نام کاربر جدید در سایت شما:"
+
+#: includes/class-settings.php:545
+msgid "Send email to admin about new user?"
+msgstr "درباره کاربر جدید برای مدیر ایمیل ارسال کنید؟"
+
+#: includes/class-settings.php:542
+msgid "Admin emails"
+msgstr "ایمیل ادمین"
+
+#: includes/class-admin-menus.php:64
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: includes/class-admin-menus.php:56
+msgid "Log-out"
+msgstr "خروج"
+
+#: includes/class-admin-menus.php:47
+msgid "Register"
+msgstr "عضویت"
+
+#: includes/class-admin-menus.php:21
+msgid "Login & Registration modal"
+msgstr "مد ورود و عضویت"
+
+#: includes/class-admin-menus.php:67
+msgid "Add to menu"
+msgstr "افزودن به فهرست"
+
+#: includes/class-settings.php:414
+msgid "With using \"server\" method you can avoid displaying default browser \"field invalid\" messages and gives more customization options."
+msgstr "با استفاده از روش \"سرور\" می توانید از نمایش پیام های \"زمینه نامعتبر\" مرورگر پیش فرض جلوگیری کرده و گزینه های سفارشی سازی بیشتری را ارائه دهید."
+
+#: includes/class-settings.php:406
+msgid "Data validation method"
+msgstr "روش اعتبار سنجی داده ها"
+
+#: includes/class-settings.php:403
+msgid "Data validation"
+msgstr "اعتبار سنجی داده ها"
+
+#: includes/class-settings.php:268
+msgid "He will need to open the email and click verification link. Please add {{VERIFY_ACCOUNT_URL}} tag to Registration Email."
+msgstr "او باید ایمیل را باز کند و روی پیوند تأیید کلیک کند. لطفاً برچسب {{VERIFY_ACCOUNT_URL}} را به ایمیل ثبت نام اضافه کنید."
+
+#: includes/class-settings.php:254 includes/class-settings.php:260
+msgid "He will need to open the email with his login information and enter them on the Log In tab."
+msgstr "او باید ایمیل را با اطلاعات ورود به سیستم خود باز کند و آنها را در برگه ورود به سیستم وارد کند."
+
+#: includes/class-settings.php:251
+msgid "If this option is enabled - the user won't automatically be logged into his account."
+msgstr "اگر این گزینه فعال باشد - کاربر به طور خودکار به حساب خود وارد نمی شود."
+
+#: includes/class-settings.php:268
+msgid "[If user can set password] "
+msgstr "[If user can set password] "
+
+#: includes/class-settings.php:260
+msgid "[If user can't set password] "
+msgstr "[If user can't set password]"
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#: includes/class-ajax.php:121
+msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
+msgstr "<strong>خطا</strong>: کوکی ها به دلیل خروجی های غیر منتظره مسدود هستند. به منظور کمک، لطفاً ببینید <a href=\"%1$s\">این مستندات</a> را یا  <a href=\"%2$s\">انجمن پشتیبانی</a> را امتحان کنید."
+
+#: includes/class-ajax.php:122
+msgid "https://wordpress.org/support/"
+msgstr "https://wordpress.org/support/"
+
+#: includes/class-ajax.php:122
+msgid "https://codex.wordpress.org/Cookies"
+msgstr "https://codex.wordpress.org/Cookies"
+
+#: includes/class-settings.php:841
+msgid "Please enter your First Name!"
+msgstr "لطفاً نام خود را وارد کنید!"
+
+#: includes/class-settings.php:834
+msgid "Please enter your UserName!"
+msgstr "لطفاً نام کاربری خود را وارد کنید!"
+
+#: includes/class-settings.php:833
+msgid "Message: No UserName"
+msgstr "پیام: بدون نام کاربری"
+
+#: includes/class-settings.php:753
+msgid "Form: Username"
+msgstr "فرم: نام کاربری"
+
+#: includes/class-settings.php:736
+msgid "Login successful, you can close this window."
+msgstr "با موفقیت وارد شدید. می توانید این پنجره را ببندید."
+
+#: includes/class-settings.php:735
+msgid "Message: Login successful (with \"Reload page after login/registration?\" disabled)"
+msgstr "پیام: ورود موفق (زمانی که \"بارگذاری صفحه پس از ورود/ثبت نام\" فعال نیست.)"
+
+#: includes/class-settings.php:728
+msgid "Message: Login successful (with \"Reload page after login/registration?\" enabled)"
+msgstr "پیام: ورود موفق (زمانی که \"بارگذاری صفحه پس از ورود/ثبت نام\" فعال است.)"
+
+#: includes/class-settings.php:532
+msgid "To reset your password, visit the following address:"
+msgstr "برای بازیابی رمز عبورتان، روی لینک زیر کلیک کنید:"
+
+#: includes/class-settings.php:531
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "اگر اشتباه شده است، فقط این ایمیل را نادیده بگیرید تا رمز عبورتان بدون تغییر باقی بماند."
+
+#: includes/class-settings.php:290
+msgid "Display First and Last name fields in Registration Form?"
+msgstr "آیا کادرهای نام و نام خانوادگی در فرم ثبت نام نمایش داده شود؟"
+
+#: includes/class-settings.php:840
+msgid "Message: No First Name"
+msgstr "پیام: بدون نام"
+
+#: includes/class-settings.php:475
+msgid "Email format"
+msgstr "ساختار ایمیل"
+
+#: includes/class-settings.php:472
+msgid "Mails"
+msgstr "نامه ها"
+
+#: includes/class-settings.php:915
+msgid "Message: No user registered with that email address"
+msgstr "پیام: هیچ کاربری با آدرس ایمیل وارد شده، عضو نشده است."
+
+#: includes/class-settings.php:722
+msgid "Please enter your password!"
+msgstr "لطفاً رمز عبور خود را وارد کنید!"
+
+#: includes/class-settings.php:908
+msgid "Message: Missing login"
+msgstr "پیام: ورود ناموفق"
+
+#: includes/class-settings.php:684
+msgid "Please enter your Username/email!"
+msgstr "لطفاً نام کاربری یا ایمیل تان را وارد کنید!"
+
+#: includes/class-settings.php:683
+msgid "Message: No Username/Email"
+msgstr "پیام: بدون نام کاربری/ایمیل"
+
+#: includes/class-ajax.php:722 includes/class-settings.php:669
+msgid "Log in"
+msgstr "ورود"
+
+#: includes/class-settings.php:862
+msgid "Registration was successful. We have sent you an email with your login information. Please use them to log into your account."
+msgstr "ثبت نام با موفقیت انجام شد. ما در حال ارسال اطلاعات ورود به ایمیل شما هستیم. لطفاً از این اطلاعات برای ورود به حساب کاربری تان استفاده کنید."
+
+#: includes/class-settings.php:951
+msgid "Check your mailbox to access your new password."
+msgstr "صندوق پستی خود را بررسی کنید تا به رمز ورود جدید خود دسترسی پیدا کنید."
+
+#: includes/class-settings.php:1072
+msgid "Security token is expired! Please refresh the page!"
+msgstr "رمز امنیتی منقضی شده است! لطفا صفحه را تازه کنید!"
+
+#: includes/class-settings.php:1071
+msgid "Message: Security token is expired"
+msgstr "پیام: رمز امنیتی منقضی شده است"
+
+#: includes/class-settings.php:1063
+msgid "Hide password"
+msgstr "مخفی کردن رمز عبور"
+
+#: includes/class-settings.php:1055
+msgid "Show password"
+msgstr "نمایش رمز عبور"
+
+#: includes/class-settings.php:401
+msgid "Use your custom selector to find button/link for attach modal."
+msgstr "برای انتخاب دکمه / پیوند برای ضمیمه کردن حالت، از انتخابگر سفارشی خود استفاده کنید."
+
+#: includes/class-settings.php:774
+msgid "Form: Email"
+msgstr "فرم: ایمیل"
+
+#: includes/class-settings.php:768
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: includes/class-settings.php:767
+msgid "Form: Last name"
+msgstr "فرم: نام خانوادگی"
+
+#: includes/class-settings.php:761
+msgid "First name*"
+msgstr "نام*"
+
+#: includes/class-settings.php:760
+msgid "Form: First name"
+msgstr "فرم: نام"
+
+#: includes/class-settings.php:747
+msgid "New account"
+msgstr "حساب جدید"
+
+#: includes/class-settings.php:729
+msgid "Login successful, reloading page..."
+msgstr "ورود با موفقیت انجام شد. صفحه در حال بارگذاری می باشد..."
+
+#: includes/class-settings.php:721
+msgid "Message: No Password"
+msgstr "پیام: بدون رمز عبور"
+
+#: includes/class-settings.php:676
+msgid "Forgot your password?"
+msgstr "رمز عبور خود را فراموش کرده اید؟"
+
+#: includes/class-settings.php:818
+msgid "Form button: Create account"
+msgstr "دکمه فرم: ایجاد حساب کاربری"
+
+#: includes/class-settings.php:803
+msgid "Form: Terms"
+msgstr "فرم: مقررات"
+
+#: includes/class-settings.php:775
+msgid "Email*"
+msgstr "ایمیل*"
+
+#: includes/class-settings.php:916
+msgid "There is no user registered with that email address."
+msgstr "هیچ کاربری با آن آدرس ایمیل ثبت نشده است."
+
+#: includes/class-settings.php:909
+msgid "Enter an username or email address."
+msgstr "یک نام کاربری یا آدرس ایمیل وارد کنید."
+
+#: includes/class-settings.php:899
+msgid "Back to login"
+msgstr "بازگشت به ورود"
+
+#: includes/class-settings.php:898
+msgid "Form button: Back to login"
+msgstr "دکمه فرم: بازگشت به ورود"
+
+#: includes/class-settings.php:956
+msgid "Reset Password"
+msgstr "بازنشانی رمز عبور"
+
+#: includes/class-settings.php:891
+msgid "Form button: Reset password"
+msgstr "دکمه فرم: بازنشانی رمز عبور"
+
+#: includes/class-settings.php:876
+msgid "Lost your password? Please enter your email address. You will receive mail with link to set new password."
+msgstr "رمز عبور خود را فراموش کرده اید؟ لطفا آدرس ایمیل خود را وارد کنید. نامه ای با پیوند برای تنظیم رمز ورود جدید دریافت خواهید کرد."
+
+#: includes/class-settings.php:875
+msgid "Message"
+msgstr "پیام"
+
+#: includes/class-settings.php:854 includes/class-settings.php:861
+msgid "Message: Registration successful"
+msgstr "پیام: ثبت نام موفقیت آمیز بود"
+
+#: includes/class-settings.php:848
+msgid "Please enter a correct email!"
+msgstr "لطفاً یک ایمیل صحیح وارد کنید!"
+
+#: includes/class-settings.php:847
+msgid "Message: Wrong email"
+msgstr "پیام: ایمیل نادرست"
+
+#: includes/class-settings.php:827
+msgid "Registration is disabled!"
+msgstr "ثبت نام غیر فعال است!"
+
+#: includes/class-settings.php:826
+msgid "Message: Registration is disabled"
+msgstr "پیام: ثبت نام غیر فعال است"
+
+#: includes/class-settings.php:819
+msgid "Create account"
+msgstr "ساخت حساب کاربری"
+
+#: includes/class-settings.php:1056
+msgid "Show"
+msgstr "نمایش"
+
+#: views/admin/settings-page.php:6 views/settings-page.php:6
+msgid "No Settings available at the moment"
+msgstr "در حال حاضر هیچ تنظیماتی موجود نیست"
+
+#: includes/class-settings.php:1179
+msgid "PRO features"
+msgstr "ویژگی های نسخه PRO"
+
+#: includes/class-settings.php:1048
+msgid "close"
+msgstr "بستن"
+
+#: includes/class-settings.php:1047
+msgid "Close modal text"
+msgstr "متن مد بستن"
+
+#: includes/class-settings.php:1044
+msgid "Other"
+msgstr "سایر موارد"
+
+#: includes/class-settings.php:950
+msgid "Message: Reset successful"
+msgstr "پیام: بازنشانی با موفقیت انجام شد"
+
+#: includes/class-settings.php:944
+msgid "Oops! Something went wrong while updating your account."
+msgstr "اوه! هنگام به روزرسانی حساب شما مشکلی پیش آمد."
+
+#: includes/class-settings.php:943
+msgid "Message: Something went wrong"
+msgstr "پیام: ‫اوه‬‫،‬‫ مشکلی پیش آمد‬‫!‬‫"
+
+#: includes/class-settings.php:937
+msgid "System is unable to send you the mail containing your new password."
+msgstr "سیستم قادر به ارسال نامه حاوی رمز ورود جدید شما نیست."
+
+#: includes/class-settings.php:936
+msgid "Message: Unable to send email"
+msgstr "پیام: ارسال ایمیل امکان پذیر نیست"
+
+#: includes/class-settings.php:930
+msgid "Invalid username or e-mail address."
+msgstr "نام‌کاربری یا آدرس ایمیل نامعتبر است."
+
+#: includes/class-settings.php:929
+msgid "Message: Invalid username or e-mail address"
+msgstr "پیام: نام‌کاربری یا آدرس ایمیل نامعتبر است."
+
+#: includes/class-settings.php:923
+msgid "There is no user registered with that username."
+msgstr "هیچ کاربری با آن نام کاربری ثبت نشده است."
+
+#: includes/class-settings.php:922
+msgid "Message: No user registered with that username"
+msgstr "پیام: هیچ کاربری با آن نام کاربری ثبت نشده است."
+
+#. Author URI of the plugin
+msgid "http://maxim-kaminsky.com/"
+msgstr "http://maxim-kaminsky.com/"
+
+#. Author of the plugin
+msgid "Maxim K"
+msgstr "بیشترین"
+
+#. Plugin URI of the plugin
+msgid "https://maxim-kaminsky.com/shop/product/ajax-login-and-registration-modal-popup-pro/"
+msgstr "https://maxim-kaminsky.com/shop/product/ajax-login-and-registration-modal-popup-pro/"
+
+#: includes/class-settings.php:1064
+msgid "Hide"
+msgstr "مخفی کردن"
+
+#: includes/class-settings.php:855
+msgid "Registration was successful, reloading page."
+msgstr "ثبت نام موفقیت آمیز بود، صفحه در حال بارگذاری مجدد می باشد."
+
+#: includes/class-core.php:127 views/admin/settings-page.php:3
+#: views/settings-page.php:3
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/class-settings.php:382
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: includes/class-settings.php:202 includes/class-settings.php:271
+#: includes/class-settings.php:1082
+msgid "General"
+msgstr "عمومی"
+
+#: includes/class-settings.php:470
+msgid "Emails"
+msgstr "ایمیل ها"
+
+#: includes/class-settings.php:648 includes/class-settings.php:885
+msgid "Email or Username"
+msgstr "ایمیل یا نام کاربری"
+
+#: includes/class-settings.php:647 includes/class-settings.php:884
+msgid "Form: Email or Username"
+msgstr "فرم: ایمیل یا نام کاربری"
+
+#: includes/class-admin-menus.php:38 includes/class-pages-manager.php:59
+#: includes/class-settings.php:637
+msgid "Login"
+msgstr "ورود"
+
+#: includes/class-settings.php:635
+msgid "Expressions"
+msgstr "ترجمه"
+
+#: includes/class-settings.php:754
+msgid "Username*"
+msgstr "نام کاربری*"
+
+#: includes/class-settings.php:523
+msgid "The email Subject to user with new password."
+msgstr "موضوع ایمیل ارسالی به کاربر برای ارسال رمز عبور پس از ثبت نام است."
+
+#: includes/class-settings.php:518 includes/class-settings.php:872
+msgid "Lost password"
+msgstr "فراموشی رمز عبور"
+
+#: includes/class-settings.php:504 includes/class-settings.php:528
+#: includes/class-settings.php:568 includes/class-settings.php:607
+msgid "Body"
+msgstr "متن ایمیل"
+
+#: includes/class-settings.php:498
+msgid "The email Subject to user about successful registration."
+msgstr "متن ایمیل ارسالی به کاربر برای اعلام ثبت نام موفق است."
+
+#: includes/class-settings.php:496 includes/class-settings.php:520
+#: includes/class-settings.php:560 includes/class-settings.php:600
+msgid "Subject"
+msgstr "موضوع"
+
+#: includes/class-pages-manager.php:77 includes/class-settings.php:493
+#: includes/class-settings.php:743
+msgid "Registration"
+msgstr "ثبت نام"
+
+#: includes/class-settings.php:675
+msgid "Link: Forgot your password?"
+msgstr "لینک: رمز عبور خود را فراموش کرده اید؟"
+
+#: includes/class-settings.php:668
+msgid "Form button: Login"
+msgstr "دکمه فرم: ورود"
+
+#: includes/class-settings.php:662
+msgid "Remember me"
+msgstr "مرا به خاطر بسپار"
+
+#: includes/class-settings.php:661
+msgid "Form: Remember me"
+msgstr "فرم: مرا به خاطر بسپار"
+
+#: includes/class-settings.php:655 includes/class-settings.php:975
+#: includes/class-settings.php:976
+msgid "Password"
+msgstr "رمز عبور"
+
+#: includes/class-settings.php:654
+msgid "Form: Password"
+msgstr "فرم: رمز عبور"
+
+#: includes/class-settings.php:175
+msgid "Do you like \"Login and Register Modal\" plugin? Please consider giving it a %1$sreview%2$s"
+msgstr "آیا افزونه \"ورود به سیستم و ثبت نام مود\" را دوست دارید؟ لطفاً به آن %1$sreview%2$s بدهید"
+
+#: includes/class-settings.php:241
+msgid "Terms"
+msgstr "مقررات"
+
+#: includes/class-settings.php:244
+msgid "Hide Terms box in Registration Form?"
+msgstr "کادر مقررات را در فرم عضویت مخفی کنید؟"
+
+#: includes/class-settings.php:234
+msgid "Free version are compatible with:"
+msgstr "نسخه رایگان سازگار است با:"
+
+#: includes/class-settings.php:231
+msgid "Supported plugins"
+msgstr "افزونه های پشتیبانی شده"
+
+#: includes/class-settings.php:208
+msgid "How to integrate modal on your site:"
+msgstr "نحوه ادغام modal در سایت خود:"
+
+#: includes/class-settings.php:205
+msgid "Installation steps"
+msgstr "مراحل نصب"
+
+#: includes/class-settings.php:178
+msgid "I already reviewed it"
+msgstr "من قبلاً آن را بررسی کردم"
+
+#: includes/class-settings.php:395
+msgid "Extra selectors to handle register modal?"
+msgstr "انتخابگرهای اضافی برای کنترل حالت ثبت نام؟"
+
+#: includes/class-settings.php:387
+msgid "Extra selectors to handle log in modal?"
+msgstr "انتخابگرهای اضافی برای کنترل حالت ورود؟"
+
+#: includes/class-settings.php:384
+msgid "Extra selectors (id, classes) to handle modal"
+msgstr "انتخابگرهای اضافی (id, classes) برای کنترل modal"
+
+#: includes/class-settings.php:641
+msgid "Sign in"
+msgstr "ورود"
+
+#: includes/class-settings.php:640 includes/class-settings.php:746
+msgid "Form heading"
+msgstr "عنوان فرم"
+
+#: includes/class-settings.php:507
+msgid "Url to login:"
+msgstr "آدرس اینترنتی برای ورود به سیستم:"

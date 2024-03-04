@@ -1,0 +1,1347 @@
+# Translation of Plugins - License Manager for WooCommerce - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - License Manager for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-10 10:18:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - License Manager for WooCommerce - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "LicenseManager"
+msgstr "لایسنس منیجر "
+
+#. Plugin URI of the plugin
+msgid "https://www.wpexperts.io/"
+msgstr "https://www.wpexperts.io"
+
+#: templates/page-settings.php:27
+msgid "Tools"
+msgstr "ابزارها"
+
+#: templates/myaccount/lmfwc-view-license-keys.php:51
+msgid "Activation status"
+msgstr "وضعيت فعالسازي"
+
+#: templates/licenses/page-add.php:83 templates/licenses/page-edit.php:148
+#: templates/licenses/page-import.php:106
+msgid "The user to which the license keys will be assigned."
+msgstr "كاربراني كه شماره سريالها به آنها اختصاص خواهند يافت."
+
+#: includes/Lists/LicensesList.php:944 templates/licenses/page-add.php:80
+#: templates/licenses/page-edit.php:129 templates/licenses/page-import.php:103
+msgid "Customer"
+msgstr "مشتري"
+
+#: includes/Lists/LicensesList.php:225
+msgid "Filter by user"
+msgstr "فيلتر كردن برحسب كاربر"
+
+#: includes/Main.php:149
+msgid "Search by user login, name or email"
+msgstr "جستجو برحسب آيدي، نام يا آدرس ايميل"
+
+#: includes/Api/V2/Licenses.php:720 includes/Api/V2/Licenses.php:765
+msgid "Sorry, you are not allowed to edit this resource."
+msgstr "متأسفانه شما مجاز به ويرايش اين ورودي نيستيد."
+
+#: includes/Api/V2/Generators.php:367 includes/Api/V2/Licenses.php:528
+msgid "Sorry, you are not allowed to edit resources."
+msgstr "متأسفانه شما مجاز به ويرايش وروديها نيستيد."
+
+#: includes/Api/V2/Generators.php:265 includes/Api/V2/Licenses.php:381
+msgid "Sorry, you are not allowed to create resources."
+msgstr "متأسفانه شما مجاز به ايجاد اين ورودي نيستيد."
+
+#: includes/Api/V2/Generators.php:207 includes/Api/V2/Licenses.php:301
+#: includes/Api/V2/Licenses.php:812
+msgid "Sorry, you cannot view this resource."
+msgstr "متأسفانه شما مجاز به مشاهده اين ورودي نيستيد."
+
+#: includes/Api/V2/Generators.php:154 includes/Api/V2/Licenses.php:228
+msgid "Sorry, you cannot list resources."
+msgstr "متأسفانه شما مجاز به ليست كردن وروديها نيستيد."
+
+#: includes/Settings/WooSettings.php:374
+msgid "Send"
+msgstr "ارسال"
+
+#: includes/Settings/WooSettings.php:373
+msgid "Order status"
+msgstr "وضعيت سفارش"
+
+#: includes/Settings/WooSettings.php:180
+msgid "Define license key delivery"
+msgstr "تعيين وضعيت ارسال شماره سريال"
+
+#: includes/Settings/Tools.php:185
+msgid "The selected columns will appear on the CSV export for license keys."
+msgstr "ستونهاي انتخاب شده، در فايل خروجي CSV مربوط به شماره سريالها ظاهر خواهند شد."
+
+#: includes/Settings/Tools.php:151
+msgid "Updated by"
+msgstr "بروزرساني شده توسط"
+
+#: includes/Settings/Tools.php:147
+msgid "Updated at"
+msgstr "بروزرساني شده در"
+
+#: includes/Settings/Tools.php:143
+msgid "Created by"
+msgstr "ايجادشده توسط"
+
+#: includes/Settings/Tools.php:135
+msgid "Times activated (max.)"
+msgstr "دفعات فعالسازي (حداكثر)"
+
+#: includes/Settings/Tools.php:131
+msgid "Times activated"
+msgstr "دفعات فعالسازي"
+
+#: includes/Settings/Tools.php:111
+msgid "User ID"
+msgstr "آيدي كاربر"
+
+#: includes/Settings/Tools.php:67
+msgid "CSV Export Columns"
+msgstr "ستونهاي اكسپورت كردن CSV"
+
+#: includes/Settings/Tools.php:59
+msgid "License key export"
+msgstr "اكسپورت كردن شماره سريال"
+
+#: includes/Settings/WooSettings.php:351
+msgid "Allow users to deactivate their license keys."
+msgstr "به كاربران اجازه غيرفعالسازي شماره سريالهاي‌شان را بده."
+
+#: includes/Settings/WooSettings.php:326 includes/Settings/WooSettings.php:356
+msgid "The option will be visible from the 'License keys' section inside WooCommerce's 'My Account'"
+msgstr "اين گزينه از طريق منوي \"شماره سريالها\" كه در بخش \"پنل كاربري\" در ووكامرس وجود دارد قابل رؤيت خواهد بود"
+
+#: includes/Settings/WooSettings.php:321
+msgid "Allow users to activate their license keys."
+msgstr "به كاربران اجازه فعالسازي شماره سريالهاي‌شان را بده."
+
+#: includes/Settings/WooSettings.php:296
+msgid "You might need to save your permalinks after enabling this option."
+msgstr "ممكن است پس از فعالسازي اين گزينه مجبور به ذخيره كردن permalink هايتان بشويد."
+
+#: includes/Settings/WooSettings.php:291
+msgid "Display the 'License keys' section inside WooCommerce's 'My Account'."
+msgstr "بخش \"شماره سريالها\" را داخل منوي \"پنل كاربري\" در ووكامرس نشان بده."
+
+#: includes/Settings/WooSettings.php:450
+msgid "The \"Synchronize\" button can be used to manually synchronize the product stock."
+msgstr "دكمه \"سنكرون‌سازي\" ميتواند براي سنكرون كردن موجودي محصول بكار برود."
+
+#: includes/Settings/WooSettings.php:448
+msgid "Synchronize"
+msgstr "سنكرون‌سازي"
+
+#: includes/Settings/WooSettings.php:439
+msgid "License Manager &rarr; Sell from stock"
+msgstr "مديريت شماره سريال &rarr; فروش از مخزن"
+
+#: includes/Settings/WooSettings.php:438
+msgid "License Manager &rarr; Sell license keys"
+msgstr "مديريت شماره سريال &rarr; فروش شماره سريالها"
+
+#: includes/Settings/WooSettings.php:437
+msgid "Inventory &rarr; Manage stock?"
+msgstr "سياهه &rarr; مديريت موجودي؟"
+
+#: includes/Settings/WooSettings.php:436
+msgid "To use this feature, you also need to enable the following settings at a product level:"
+msgstr "براي استفاده از اين ويژگي، لازم است كه در سطح يك محصول، تنظيمات زير را نيز انجام دهيد:"
+
+#: includes/Settings/WooSettings.php:432
+msgid "Enable automatic stock management for WooCommerce products."
+msgstr "فعالسازي مديديت خودكار موجودي براي محصولات ووكامرس."
+
+#: includes/Settings/General.php:198
+msgid "Allow duplicate license keys inside the licenses database table."
+msgstr "وجود شماره سريالهاي تكراري در جدول ديتابيس شماره سريالها را مجاز بدان."
+
+#: includes/Settings/WooSettings.php:146
+msgid "User deactivation"
+msgstr "غيرفعالسازي كاربر"
+
+#: includes/Settings/WooSettings.php:138
+msgid "User activation"
+msgstr "فعالسازي كاربر"
+
+#: includes/Settings/WooSettings.php:130
+msgid "Enable \"License keys\""
+msgstr "فعالسازي \"شماره سريالها\""
+
+#: includes/Settings/WooSettings.php:122
+msgid "My account"
+msgstr "اكانت من"
+
+#: includes/Settings/WooSettings.php:188
+msgid "Stock management"
+msgstr "مديريت موجودي"
+
+#: includes/Settings/General.php:79
+msgid "Allow duplicates"
+msgstr "مجاز دانستن موارد تكراري"
+
+#: includes/Settings/WooSettings.php:67
+msgid "The stock of all WooCommerce products is already synchronized."
+msgstr "موجودي كليه محصولات ووكامرسي قبلا سنكرون شده است."
+
+#: includes/Settings/WooSettings.php:60
+msgid "Successfully updated the stock of %d WooCommerce products."
+msgstr "موجودي %d از محصولات ووكامرسي با موفقيت بروزرساني شد."
+
+#: includes/Settings/Tools.php:139
+msgid "Created at"
+msgstr "ساخته شده در "
+
+#. translators: placeholder is {blogname}, a variable that will be substituted
+#. when email is sent out
+#: includes/Integrations/WooCommerce/Emails/CustomerDeliverLicenseKeys.php:28
+msgctxt "Default email subject for resent license key emails sent to the customer"
+msgid "[%s] - Your license keys are here!"
+msgstr "[%s] - شماره سريالهاي شما اينجا هستند!"
+
+#: includes/AdminMenus.php:245 includes/AdminMenus.php:307
+msgid "Insufficient permission"
+msgstr "دسترسي ناكافي"
+
+#: includes/Main.php:147 includes/Main.php:170
+msgid "Search by order ID or customer email"
+msgstr "جستجو توسط شماره سفارش يا ايميل مشتري"
+
+#: includes/Settings/General.php:142
+msgid "Enable/disable API routes"
+msgstr "فعال/غيرفعال كردن مسيرهاي API"
+
+#: includes/Integrations/WooCommerce/Order.php:382
+msgid "Please wait..."
+msgstr "لطفا اندكي تامل كنيد..."
+
+#: includes/Main.php:148 includes/Main.php:171
+msgid "Search by product ID or product name"
+msgstr "جستجو توسط نام محصول يا آيدي محصول"
+
+#: includes/Settings/General.php:374
+msgid "The complete <b>API documentation</b> can be found <a href=\"%s\" target=\"_blank\" rel=\"noopener\">here</a>."
+msgstr "نسخه كامل <b>اسناد API</b> را ميتوانيد در <a href=\"%s\" target=\"_blank\" rel=\"noopener\">اين لينك</a> مشاهده كنيد."
+
+#: includes/Settings/General.php:363
+msgid "Deprecated"
+msgstr "منسوخ"
+
+#: includes/Integrations/WooCommerce/ProductData.php:322
+msgid "Sell license key(s)"
+msgstr "فروش شماره سريال(ها)"
+
+#: includes/Integrations/WooCommerce/ProductData.php:114
+msgid "Sell license keys"
+msgstr "فروش شماره سريال"
+
+#: includes/Integrations/WooCommerce/ProductData.php:396
+msgid "License key(s) in stock and available for sale."
+msgstr "شماره سريال(هاي) موجود در مخزن كه براي فروش در دسترس هستند."
+
+#: includes/AdminMenus.php:165
+msgid "License keys per page"
+msgstr "تعداد شماره سريال در هر صفحه"
+
+#: includes/Integrations/WooCommerce/ProductData.php:168
+#: includes/Integrations/WooCommerce/ProductData.php:380
+msgid "Sell license keys from the available stock."
+msgstr "با انتخاب اين گزينه، شماره سريالها از موجودي مخزن به فروش ميرسند."
+
+#: includes/Settings/General.php:134
+msgid "API & SSL"
+msgstr "API و SSL"
+
+#: includes/Integrations/WooCommerce/ProductData.php:126
+#: includes/Integrations/WooCommerce/ProductData.php:335
+msgid "Delivered quantity"
+msgstr "تعداد شماره سريال ارسالي"
+
+#: includes/Settings/General.php:233
+msgid "This should only be activated for development purposes."
+msgstr "اين گزينه فقط براي اهداف و مقاصد توسعه بايد فعال شود."
+
+#: includes/Settings/General.php:228
+msgid "Enable the plugin API routes over insecure HTTP connections."
+msgstr "فعالسازي API افزونه روي اتصالات نا امن HTTP."
+
+#: includes/Controllers/ApiKey.php:114
+msgid "There was a problem updating the API key."
+msgstr "مشکلي در بروز رساني کليد API وجود دارد."
+
+#: includes/Controllers/ApiKey.php:92
+msgid "There was a problem generating the API key."
+msgstr "مشکلي در ايجاد کليد API وجود دارد."
+
+#: includes/Controllers/License.php:318
+msgid "There was a problem updating the license key."
+msgstr "مشکلي در بروز رساني شماره سريال وجود دارد."
+
+#: includes/Controllers/License.php:222
+msgid "There was a problem adding the license key."
+msgstr "مشکلي در افزودن شماره سريال وجود دارد."
+
+#: includes/Controllers/License.php:75 includes/Controllers/License.php:100
+#: includes/Controllers/License.php:123
+msgid "There was a problem importing the license keys."
+msgstr "مشکلي در وارد نمودن شماره سريالها وجود دارد."
+
+#: includes/Controllers/Generator.php:170
+msgid "There was a problem updating the generator."
+msgstr "مشکلي در بروزرساني مولد شماره سريال وجود دارد."
+
+#: includes/Controllers/Generator.php:78
+msgid "There was a problem adding the generator."
+msgstr "مشکلي در افزودن مولد شماره سريال وجود دارد."
+
+#: includes/Integrations/WooCommerce/ProductData.php:323
+msgid "Sell license keys for this variation"
+msgstr "فروش شماره سريال براي اين گونه"
+
+#: includes/Integrations/WooCommerce/Order.php:300
+msgid "Send license key(s) to customer"
+msgstr "ارسال شماره سريال(ها) به مشتري"
+
+#: includes/Integrations/WooCommerce/Emails/CustomerDeliverLicenseKeys.php:24
+#: includes/Settings/WooSettings.php:165
+msgid "License key delivery"
+msgstr "ارسال شماره سريال"
+
+#. translators: placeholder is {blogname}, a variable that will be substituted
+#. when email is sent out
+#: includes/Integrations/WooCommerce/Emails/CustomerPreorderComplete.php:28
+msgctxt "Default email subject for completed pre-order emails sent to the customer"
+msgid "[%s] - Your preorder has arrived!"
+msgstr "[%s] - پيش سفارش شما رسيد!"
+
+#: includes/Integrations/WooCommerce/Emails/CustomerPreorderComplete.php:24
+msgid "Preorder complete"
+msgstr "تكميل پيش سفارش"
+
+#: includes/Integrations/WooCommerce/Emails/CustomerPreorderComplete.php:20
+msgid "An email sent to the customer when a license key preorder is complete."
+msgstr "با تکميل پيش سفارش شماره سريال، ايميلي به مشتري ارسال شد."
+
+#: includes/Integrations/WooCommerce/Emails/CustomerPreorderComplete.php:19
+msgid "Completed preorder"
+msgstr "پيش سفارش تکميل شده"
+
+#: includes/Lists/APIKeyList.php:396
+msgid "There was a problem revoking the API key(s)."
+msgstr "ابطال کليد(هاي) API با اشكال مواجه شد."
+
+#: includes/Integrations/WooCommerce/ProductData.php:128
+#: includes/Integrations/WooCommerce/ProductData.php:337
+msgid "Defines the amount of license keys to be delivered upon purchase."
+msgstr "تعداد شماره سريالي كه هنگام تكميل سفارش بايد صادر شود."
+
+#: includes/Integrations/WooCommerce/Emails/CustomerDeliverLicenseKeys.php:20
+msgid "A manual email to send out license keys to the customer."
+msgstr "ايميل نمودن شماره سريال بصورت دستي به مشتري."
+
+#: includes/Integrations/WooCommerce/Emails/CustomerDeliverLicenseKeys.php:19
+msgid "Deliver license keys"
+msgstr "ارسال شماره سريال"
+
+#: includes/AdminMenus.php:388 includes/Lists/APIKeyList.php:182
+msgid "Read"
+msgstr "خواندن"
+
+#: includes/AdminMenus.php:389 includes/Lists/APIKeyList.php:183
+msgid "Write"
+msgstr "نوشتن"
+
+#: includes/AdminMenus.php:390 includes/Lists/APIKeyList.php:184
+msgid "Read/Write"
+msgstr "خواندن/نوشتن"
+
+#: includes/AdminMenus.php:378 includes/Lists/APIKeyList.php:205
+msgid "%1$s at %2$s"
+msgstr "%1$s در %2$s"
+
+#: includes/Lists/APIKeyList.php:123 includes/Lists/APIKeyList.php:228
+msgid "Revoke"
+msgstr "ابطال"
+
+#: includes/AdminMenus.php:472
+msgid "Thanks :)"
+msgstr "با تشكر :)"
+
+#: includes/AdminMenus.php:182
+msgid "Generators per page"
+msgstr "تعداد مولد در هر صفحه"
+
+#: includes/AdminMenus.php:262
+msgid "Invalid license key ID"
+msgstr "شناسه شماره سريال نامعتبر است"
+
+#: includes/Controllers/ApiKey.php:38
+msgid "User is missing."
+msgstr "کاربر ناموجود است."
+
+#: includes/Controllers/Generator.php:111
+msgid "The Generator charset is invalid."
+msgstr "مجموعه كاراكترهاي مولد سريال نامعتبرند."
+
+#: includes/Controllers/Generator.php:97
+msgid "The Generator name is invalid."
+msgstr "نام مولد سريال نامعتبر است."
+
+#: includes/Controllers/Generator.php:41
+msgid "The charset is invalid."
+msgstr "مجموعه كاراكترها بكار رفته نامعتبر است."
+
+#: includes/Controllers/Generator.php:35
+msgid "Generator name is missing."
+msgstr "نام مولد سريال فراموش شده است."
+
+#: includes/AdminMenus.php:470
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr "اگر شما %1$s را دوست داريد لطفاً ما را با دادن  %2$s ستاره دلگرم کنيد! پيشاپيش از شما سپاسگزاريم!"
+
+#: includes/AdminMenus.php:396
+msgid "You do not have permission to edit this API Key"
+msgstr "شما مجاز به ويرايش اين کليد API نيستيد"
+
+#: includes/Lists/APIKeyList.php:392
+msgid "%d API key(s) permanently revoked."
+msgstr "%d کليد(هاي) API بطور دائم باطل شد."
+
+#: includes/Lists/APIKeyList.php:112
+msgid "Revoke API key"
+msgstr "ابطال کليد API"
+
+#: includes/Lists/APIKeyList.php:111
+msgid "View/Edit"
+msgstr "نمايش/ويرايش"
+
+#: includes/Lists/APIKeyList.php:92
+msgid "API key"
+msgstr "کليد API"
+
+#: includes/Lists/APIKeyList.php:37
+msgid "No keys found."
+msgstr "هيچ کليدي يافت نشد."
+
+#: includes/Controllers/ApiKey.php:110
+msgid "API key updated successfully."
+msgstr "کليد API با موفقيت بروز شد."
+
+#: includes/Controllers/ApiKey.php:86
+msgid "API key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr "کليد API با موفقيت ايجاد شد. اطمينان حاصل کنيد که کليدهاي جديد خود را اکنون کپي کنيد زيرا پس از ترک اين صفحه، کليد رمز مخفي مي شود."
+
+#: includes/Controllers/ApiKey.php:59
+msgid "You do not have permission to assign API keys to the selected user."
+msgstr "شما دسترسي كافي براي اختصاص دادن کليدهاي API به کاربر انتخاب‌شده را نداريد."
+
+#: includes/Controllers/ApiKey.php:42
+msgid "Permissions are missing."
+msgstr "مجوزها در دسترس نيستند."
+
+#: includes/Controllers/ApiKey.php:34
+msgid "Description is missing."
+msgstr "توضيحات از بين رفته‌اند."
+
+#: includes/Controllers/License.php:213
+msgid "1 license key(s) added successfully."
+msgstr "1 شماره سريال با موفقيت اضافه شد."
+
+#: includes/Controllers/License.php:114
+msgid "%d license key(s) added successfully."
+msgstr "%d شماره سريال با موفقيت اضافه شد."
+
+#: includes/Controllers/Generator.php:174
+msgid "The Generator was updated successfully."
+msgstr "مولد سريال با موفقيت بروز شد."
+
+#: includes/Controllers/Generator.php:139
+msgid "The Generator chunk length is invalid."
+msgstr "طول قطعه‌ي مولد صحيح نيست."
+
+#: includes/Controllers/Generator.php:125
+msgid "The Generator chunks are invalid."
+msgstr "قطعات مولد سريال نامعتبرند."
+
+#: includes/Controllers/Generator.php:74
+msgid "The generator was added successfully."
+msgstr "مولد سريال با موفقيت اضافه شد."
+
+#: includes/Controllers/Generator.php:53
+msgid "Only integer values allowed for chunk length."
+msgstr "تنها مقادير عددي صحيح براي طول قطعه ميتواند بكار برود."
+
+#: includes/Controllers/Generator.php:47
+msgid "Only integer values allowed for chunks."
+msgstr "تنها مقادير عددي صحيح براي تعداد قطعه ميتواند بكار برود."
+
+#: includes/Main.php:257
+msgid "Documentation"
+msgstr "مستندات"
+
+#: includes/Settings/General.php:71
+msgid "Obscure licenses"
+msgstr "مبهم‌سازي شماره سريالها"
+
+#: includes/Integrations/WooCommerce/ProductData.php:167
+#: includes/Integrations/WooCommerce/ProductData.php:379
+msgid "Sell from stock"
+msgstr "فروش از مخزن شماره سريال"
+
+#: includes/Integrations/WooCommerce/ProductData.php:354
+msgid "Automatically generate license keys with each sold variation"
+msgstr "بصورت خودکار شماره سريالها را با توجه نوع فروخته شده توليد كن"
+
+#: includes/Integrations/WooCommerce/Order.php:377
+msgid "Hide license key(s)"
+msgstr "پنهان کردن شماره سريال(ها)"
+
+#: includes/Integrations/WooCommerce/Order.php:371
+msgid "Show license key(s)"
+msgstr "نمايش شماره سريال(ها)"
+
+#: includes/Controllers/License.php:334 includes/Controllers/License.php:354
+msgid "Invalid request."
+msgstr "درخواست نامعتبر."
+
+#: includes/Main.php:341
+msgid "Your license key(s)"
+msgstr "شماره سريال شما:"
+
+#: includes/Settings/WooSettings.php:264
+msgid "If this setting is off, you must manually send out all license keys for completed orders."
+msgstr "اگر اين گزينه خاموش باشد، شما بايد خودتان همه شماره سريالها را براي سفارش‌هاي تكميل شده ارسال نماييد."
+
+#: includes/Settings/General.php:171
+msgid "All license keys will be hidden and only displayed when the 'Show' action is clicked."
+msgstr "همه شماره سريالها پنهان ميشوند و تنها زماني که روي گزينه 'نمايش' کليک شود، به نمايش در مي‌آيند."
+
+#: includes/Settings/General.php:167
+msgid "Hide license keys in the admin dashboard."
+msgstr "پنهان کردن شماره سريالها در پيشخوان مديريت."
+
+#: includes/Settings/WooSettings.php:172
+msgid "Automatic delivery"
+msgstr "ارسال خودکار"
+
+#: includes/Integrations/WooCommerce/ProductData.php:261
+#: includes/Integrations/WooCommerce/ProductData.php:447
+msgid "Assign a generator if you wish to sell automatically generated licenses for this product."
+msgstr "اگر ميخواهيد شماره سريالهاي اين محصول بطور خودکار ايجاد شوند، يک مولد شماره سريال به آن اختصاص دهيد."
+
+#: includes/Main.php:262
+msgid "Donate"
+msgstr "کمک مالي"
+
+#: includes/Controllers/License.php:313
+msgid "Your license key has been updated successfully."
+msgstr "شماره سريال شما با موفقيت بروزرساني شد."
+
+#: includes/Controllers/License.php:137
+msgid "%d key(s) have been imported, while %d key(s) were not imported."
+msgstr "%d عدد کليد وارد شد، ولي %d عدد کليد نيز وارد نشد."
+
+#: includes/Integrations/WooCommerce/ProductData.php:155
+#: includes/Integrations/WooCommerce/ProductData.php:366
+msgid "Assign generator"
+msgstr "انتخاب مولد"
+
+#: includes/Integrations/WooCommerce/ProductData.php:90
+#: includes/Integrations/WooCommerce/ProductData.php:300
+msgid "Please select a generator"
+msgstr "لطفا يکي از مولدهاي زير را انتخاب کنيد"
+
+#: includes/Integrations/WooCommerce/ProductData.php:177
+#: includes/Integrations/WooCommerce/ProductData.php:389
+msgid "Available"
+msgstr "موجودي مخزن"
+
+#: includes/AdminMenus.php:102
+#: includes/Integrations/WooCommerce/ProductData.php:66
+msgid "License Manager"
+msgstr "شماره سريال"
+
+#: includes/Controllers/License.php:190 includes/Controllers/License.php:279
+msgid "The license key already exists."
+msgstr "اين شماره سريال از قبل وجود دارد."
+
+#: includes/Controllers/Generator.php:263
+msgid "Successfully generated %d license key(s)."
+msgstr "تعداد %d شماره سريال با موفقيت ايجاد شد."
+
+#: includes/Controllers/Generator.php:237
+msgid "The chosen product does not exist."
+msgstr "محصول انتخاب‌شده وجود ندارد."
+
+#: includes/Controllers/Generator.php:223
+msgid "The chosen order does not exist."
+msgstr "سفارش انتخاب‌شده وجود ندارد."
+
+#: includes/Controllers/Generator.php:208
+msgid "The chosen generator does not exist."
+msgstr "مولد انتخاب‌شده وجود ندارد."
+
+#: includes/Lists/APIKeyList.php:371
+msgid "No API keys were selected."
+msgstr "هيچ کليد API اي انتخاب نشده است."
+
+#: includes/Integrations/WooCommerce/Order.php:339
+msgid "The following license keys have been sold by this order"
+msgstr "شماره سريالهاي زير بهمراه اين سفارش به فروش رسيدند"
+
+#: includes/Integrations/WooCommerce/ProductData.php:184
+msgid "License key(s) in stock and available for sale"
+msgstr "عدد شماره سريال در مخزن موجود است و ميتواند به فروش برسد"
+
+#: includes/Integrations/WooCommerce/ProductData.php:144
+msgid "Automatically generate license keys with each sold product"
+msgstr "با هر بار فروش محصول، شماره سريالها بطور خودکار توليد شوند"
+
+#: includes/Integrations/WooCommerce/ProductData.php:115
+msgid "Sell license keys for this product"
+msgstr "با انتخاب اين گزينه، بهمراه اين محصول، شماره سريال نيز بفروش ميرسد"
+
+#: includes/Settings/WooSettings.php:259
+msgid "Automatically send license keys when an order is set to 'Complete'."
+msgstr "ارسال خودکار شماره سريال(ها) به محض 'تکميل' سفارش."
+
+#. Author URI of the plugin
+msgid "https://www.licensemanager.at/"
+msgstr "https://www.licensemanager.at/"
+
+#: includes/Lists/LicensesList.php:559 includes/Lists/LicensesList.php:568
+#: includes/Lists/LicensesList.php:612 includes/Lists/LicensesList.php:621
+msgid "by"
+msgstr "توسط"
+
+#: includes/Lists/LicensesList.php:545 includes/Lists/LicensesList.php:598
+msgid "at"
+msgstr "در"
+
+#: includes/Lists/ActivationsList.php:620 includes/Lists/LicensesList.php:158
+msgid "Filter"
+msgstr "فيلتر"
+
+#: templates/licenses/page-list.php:18
+msgid "Search license key"
+msgstr "جستجوي شماره سريال"
+
+#: includes/Lists/LicensesList.php:950
+msgid "Updated"
+msgstr "بروزرساني"
+
+#: includes/Lists/ActivationsList.php:426 includes/Lists/LicensesList.php:949
+msgid "Created"
+msgstr "ايجاد"
+
+#: includes/Lists/LicensesList.php:201
+msgid "Filter by product"
+msgstr "فيلتر كردن براساس محصول"
+
+#: templates/generators/page-generate.php:65 templates/licenses/page-add.php:65
+#: templates/licenses/page-import.php:88
+msgid "The order to which the license keys will be assigned."
+msgstr "سفارشي كه شماره سريال به آن اختصاص خواهند يافت."
+
+#: includes/Main.php:356 templates/myaccount/lmfwc-view-license-keys.php:52
+msgid "Valid until"
+msgstr "معتبر تا"
+
+#: templates/emails/lmfwc-email-order-details.php:77
+msgid "Note"
+msgstr "توجه"
+
+#: templates/licenses/page-import.php:36 templates/licenses/page-import.php:48
+msgid "One line per license key."
+msgstr "هر سطر بايد صرفا حاوي يك شماره سريال باشد."
+
+#: includes/Lists/LicensesList.php:931
+msgid "No license keys found."
+msgstr "هيچ شماره سريالي يافت نشد."
+
+#: templates/licenses/page-import.php:3
+msgid "Add license keys in bulk"
+msgstr "افزودن شماره سريال بطور دسته‌اي"
+
+#: templates/licenses/page-add.php:3
+msgid "Add a single license key"
+msgstr "افزودن يک شماره سريال تکي"
+
+#: includes/Integrations/WooCommerce/ProductData.php:143
+#: includes/Integrations/WooCommerce/ProductData.php:353
+#: templates/generators/page-generate.php:14
+msgid "Generate license keys"
+msgstr "توليد شماره سريال"
+
+#: includes/Export.php:56 includes/Integrations/WooCommerce/MyAccount.php:405
+#: includes/Settings/Tools.php:103
+msgid "Order ID"
+msgstr "شماره سفارش"
+
+#: includes/Export.php:57 includes/Settings/Tools.php:107
+msgid "Product ID"
+msgstr "شناسه محصول"
+
+#: includes/Lists/LicensesList.php:415
+msgid "Variation of"
+msgstr "تنوع"
+
+#: templates/emails/lmfwc-email-order-details.php:23
+msgid "(Order #%s)"
+msgstr "(سفارش #%s)"
+
+#: templates/emails/lmfwc-email-order-details.php:39
+msgid "Quantity"
+msgstr "تعداد"
+
+#: includes/Lists/LicensesList.php:784
+msgid "Export (PDF)"
+msgstr "دريافت PDF"
+
+#: includes/Lists/LicensesList.php:783
+msgid "Export (CSV)"
+msgstr "دريافت CSV"
+
+#: includes/Import.php:64
+msgid "Invalid file content."
+msgstr "محتواي فايل نامعتبر است."
+
+#: includes/Import.php:41
+msgid "Invalid file type, only TXT and CSV allowed."
+msgstr "نوع فايل نامعتبر است، فقط فايلهاي TXT و CSV مجاز هستند."
+
+#: includes/Lists/ActivationsList.php:87 includes/Lists/LicensesList.php:945
+msgid "Activation"
+msgstr "فعال‌سازي"
+
+#: includes/Lists/LicensesList.php:176
+msgid "Filter by order"
+msgstr "فيلتر براساس سفارش"
+
+#: includes/Lists/GeneratorsList.php:417
+msgid "There was a problem deleting the generators."
+msgstr "مشکلي در حذف مولدهاي شماره سريال وجود دارد."
+
+#: includes/Lists/ActivationsList.php:726 includes/Lists/APIKeyList.php:355
+#: includes/Lists/GeneratorsList.php:359 includes/Lists/LicensesList.php:969
+msgid "The nonce is invalid or has expired."
+msgstr "اين پرونده نامعتبر است يا منقضي شده است."
+
+#: includes/Lists/GeneratorsList.php:114
+msgid "Number of products assigned to this generator"
+msgstr "تعداد محصولات اختصاص يافته به اين مولد"
+
+#: templates/licenses/page-import.php:31
+msgid "File"
+msgstr "فايل"
+
+#: templates/licenses/page-add.php:23 templates/licenses/page-edit.php:39
+#: templates/licenses/page-import.php:55
+msgid "Valid for (days)"
+msgstr "معتبر براي (روز)"
+
+#: templates/generators/page-add.php:32 templates/generators/page-edit.php:55
+#: templates/licenses/page-add.php:44 templates/licenses/page-edit.php:60
+#: templates/licenses/page-import.php:67
+msgid "Define how many times the license key can be marked as \"activated\" by using the REST API. Leave blank if you do not use the API."
+msgstr "مشخص کنيد که اين شماره سريال چند بار مي‌تواند با ريست نمودن API \"فعال\" گردد. اگر از API استفاده نمي‌کنيد، آنرا خالي بگذاريد."
+
+#: includes/Lists/GeneratorsList.php:262 templates/generators/page-add.php:29
+#: templates/generators/page-edit.php:52 templates/licenses/page-add.php:41
+#: templates/licenses/page-edit.php:57 templates/licenses/page-import.php:64
+msgid "Maximum activation count"
+msgstr "حداکثر دفعات فعالسازي"
+
+#: templates/emails/lmfwc-email-order-details.php:40
+msgid "Price"
+msgstr "قيمت"
+
+#: templates/emails/lmfwc-email-customer-preorder-complete.php:14
+msgid "The preorder #%d has been fulfilled. Order Details:"
+msgstr "پيش سفارش #%d تكميل شده است. جزئيات سفارش:"
+
+#: includes/Integrations/WooCommerce/Order.php:353
+#: includes/Integrations/WooCommerce/Order.php:386
+#: templates/licenses/page-list.php:23
+msgid "Copied to clipboard"
+msgstr "در کليب برد کپي شد"
+
+#: includes/Api/Authentication.php:276
+msgid "Unknown request method."
+msgstr "درخواست ناشناخته است."
+
+#: includes/Lists/APIKeyList.php:51 templates/settings/rest-api-key.php:43
+msgid "User"
+msgstr "کاربر"
+
+#: includes/Lists/APIKeyList.php:52 templates/settings/rest-api-key.php:72
+msgid "Permissions"
+msgstr "مجوزها"
+
+#. translators: %d is the License $id
+#: includes/Lists/ActivationsList.php:246 includes/Lists/APIKeyList.php:107
+#: includes/Lists/GeneratorsList.php:119 includes/Lists/LicensesList.php:287
+msgid "ID: %d"
+msgstr "شناسه: %d"
+
+#: templates/generators/page-list.php:23 templates/licenses/page-import.php:35
+#: templates/licenses/page-import.php:47
+msgid "Important"
+msgstr "مهم"
+
+#: includes/Lists/APIKeyList.php:26
+msgid "Keys"
+msgstr "كليدها"
+
+#: includes/Lists/GeneratorsList.php:407
+msgid "%d generator(s) permanently deleted."
+msgstr "%d مولد شماره سريال براي هميشه حذف شد."
+
+#: includes/Lists/APIKeyList.php:49 templates/settings/rest-api-key.php:24
+msgid "Description"
+msgstr "توضيح"
+
+#: includes/Settings/General.php:127 templates/page-settings.php:25
+#: templates/settings/rest-api-list.php:4
+msgid "REST API"
+msgstr "ريست كردن API"
+
+#: includes/Lists/APIKeyList.php:25
+msgid "Key"
+msgstr "کليد"
+
+#: includes/Lists/LicensesList.php:1090
+msgid "%d license key(s) permanently deleted."
+msgstr "%d شماره سريال براي هميشه حذف شد."
+
+#: includes/Lists/LicensesList.php:1052
+msgid "%d license key(s) updated successfully."
+msgstr "%d شماره سريال با موفقيت فعال شد."
+
+#: includes/Enums/LicenseStatus.php:147 includes/Lists/LicensesList.php:654
+msgid "Expired"
+msgstr "منقضي شده"
+
+#: includes/Lists/GeneratorsList.php:233 includes/Lists/LicensesList.php:681
+msgid "After purchase"
+msgstr "پس از خريد"
+
+#: includes/Api/Authentication.php:312
+msgid "License Manager for WooCommerce API. Use a consumer key in the username field and a consumer secret in the password field."
+msgstr "مديريت شماره سريال براي API ووکامرس. از يک شماره سريال مصرف کننده در قسمت نام کاربري و يک رمز مصرف کننده در قسمت رمز عبور استفاده کنيد."
+
+#: includes/Api/Authentication.php:265
+msgid "The API key provided does not have write permissions."
+msgstr "اين کليد API فاقد دسترسي‌هاي لازم براي نوشتن ميباشد."
+
+#: includes/Api/Authentication.php:253
+msgid "The API key provided does not have read permissions."
+msgstr "اين کليد API فاقد دسترسي‌هاي لازم براي خواندن ميباشد."
+
+#: includes/Api/Authentication.php:199
+msgid "Consumer secret is invalid."
+msgstr "رمز مشتري اشتباه است."
+
+#: includes/Api/Authentication.php:186
+msgid "Consumer key is invalid."
+msgstr "کليد مشتري اشتباه است."
+
+#: includes/Api/Authentication.php:171
+msgid "Consumer key or secret is missing."
+msgstr "کليد مصرف کننده يا رمز مفقود شده است."
+
+#: includes/Api/Authentication.php:83
+msgid "The connection is not secure, therefore the API cannot be used."
+msgstr "اتصال امن نيست و بنابراين API نمي‌تواند مورد استفاده قرار گيرد."
+
+#: includes/Api/V2/Generators.php:390
+msgid "The Generator ID is missing from the request."
+msgstr "شناسه مولد شماره سريال در درخواست موجود نيست."
+
+#: includes/Api/V2/Generators.php:342
+msgid "The Generator could not be added to the database."
+msgstr "شناسه مولد شماره سريال نمي‌تواند به پايگاه داده اضافه شود."
+
+#: includes/Api/V2/Generators.php:311
+msgid "The Generator chunk length is missing from the request."
+msgstr "طول قطعه‌ي مولد، در درخواست موجود نيست."
+
+#: includes/Api/V2/Generators.php:303
+msgid "The Generator chunks is missing from the request."
+msgstr "تعداد قطعه‌ي مولد شماره سريال از درخواست گم شده است."
+
+#: includes/Api/V2/Generators.php:295
+msgid "The Generator charset is missing from the request."
+msgstr "نويسه‌هاي مولد شماره سريال از اين درخواست ناموجود است."
+
+#: includes/Api/V2/Generators.php:287
+msgid "The Generator name is missing from the request."
+msgstr "نام مولد شماره سريال از درخواست موجود نيست."
+
+#: templates/page-settings.php:21
+msgid "General"
+msgstr "عمومي"
+
+#: templates/licenses/page-add.php:17 templates/licenses/page-edit.php:33
+msgid "The license key will be encrypted before it is stored inside the database."
+msgstr "شماره سريال پيش از ذخيره در پايگاه داده، رمزگذاري خواهد شد."
+
+#: templates/licenses/page-edit.php:9
+msgid "Edit license key"
+msgstr "ويرايش شماره سريال"
+
+#: templates/settings/rest-api-show.php:77
+msgid "Nothing to see here..."
+msgstr "اينجا چيزي براي ديدن وجود ندارد..."
+
+#: templates/settings/rest-api-show.php:38
+msgid "Consumer secret"
+msgstr "رمز مخفي مصرف کننده"
+
+#: templates/settings/rest-api-show.php:23
+msgid "Consumer key"
+msgstr "کليد مصرف کننده"
+
+#: templates/settings/rest-api-key.php:142
+#: templates/settings/rest-api-show.php:70
+msgid "Revoke key"
+msgstr "ابطال کليد"
+
+#: templates/settings/rest-api-key.php:123
+msgid "Save changes"
+msgstr "ذخيره تغييرات"
+
+#: templates/settings/rest-api-key.php:120
+msgid "Generate API key"
+msgstr "ساخت کليد API"
+
+#: includes/Lists/APIKeyList.php:53 templates/settings/rest-api-key.php:103
+msgid "Last access"
+msgstr "آخرين دسترسي"
+
+#: includes/Lists/APIKeyList.php:50 templates/settings/rest-api-key.php:95
+msgid "Consumer key ending in"
+msgstr "پايان کليد مصرف کننده در"
+
+#: templates/settings/rest-api-key.php:88
+msgid "Select the access type of these keys."
+msgstr "نوع دسترسي به اين کليدها را انتخاب کنيد."
+
+#: templates/settings/rest-api-key.php:66
+msgid "Owner of these keys."
+msgstr "صاحب اين کليدها."
+
+#: templates/settings/rest-api-key.php:48
+msgid "Please select a user..."
+msgstr "لطفا يک کاربر را انتخاب کنيد..."
+
+#: templates/settings/rest-api-key.php:37
+msgid "Friendly name for identifying this key."
+msgstr "نام دوستانه براي شناسايي اين کليد."
+
+#: templates/settings/rest-api-key.php:11
+#: templates/settings/rest-api-show.php:11
+msgid "Key details"
+msgstr "اطلاعات کليد"
+
+#: templates/settings/rest-api-list.php:15
+msgid "Search key"
+msgstr "جستجوي کليد"
+
+#: templates/settings/rest-api-list.php:6
+msgid "Add key"
+msgstr "اضافه کردن کليد"
+
+#. Description of the plugin
+msgid "Easily sell and manage software license keys through your WooCommerce shop."
+msgstr "شماره سريال نرم افزار را براحتي از طريق فروشگاه ووکامرسي خود به فروش برسانيد و مديريت کنيد."
+
+#: includes/Lists/LicensesList.php:943
+#: templates/emails/lmfwc-email-order-details.php:38
+#: templates/generators/page-generate.php:71 templates/licenses/page-add.php:71
+#: templates/licenses/page-edit.php:105 templates/licenses/page-import.php:94
+#: templates/myaccount/lmfwc-view-license-keys.php:43
+#: templates/myaccount/single.php:45
+msgid "Product"
+msgstr "محصول"
+
+#: includes/Lists/GeneratorsList.php:258 templates/generators/page-add.php:15
+#: templates/generators/page-edit.php:38
+msgid "Name"
+msgstr "نام"
+
+#: includes/Lists/GeneratorsList.php:265 templates/generators/page-add.php:107
+#: templates/generators/page-edit.php:130
+msgid "Suffix"
+msgstr "پسوند"
+
+#: includes/Lists/GeneratorsList.php:263 templates/generators/page-add.php:83
+#: templates/generators/page-edit.php:106
+msgid "Separator"
+msgstr "جداکننده"
+
+#: includes/Lists/ActivationsList.php:548 includes/Lists/LicensesList.php:95
+msgid "All"
+msgstr "همه"
+
+#: includes/Lists/ActivationsList.php:423 templates/licenses/page-import.php:15
+#: templates/myaccount/single-table-activations.php:49
+msgid "Source"
+msgstr "منبع"
+
+#: includes/Lists/LicensesList.php:942
+#: templates/generators/page-generate.php:62 templates/licenses/page-add.php:62
+#: templates/licenses/page-edit.php:80 templates/licenses/page-import.php:85
+#: templates/myaccount/lmfwc-view-license-keys.php:88
+msgid "Order"
+msgstr "سفارش"
+
+#: includes/Lists/ActivationsList.php:287
+#: includes/Lists/ActivationsList.php:680 includes/Lists/GeneratorsList.php:128
+#: includes/Lists/GeneratorsList.php:295 includes/Lists/LicensesList.php:363
+#: includes/Lists/LicensesList.php:782
+#: templates/myaccount/single-table-activations.php:128
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/Enums/LicenseStatus.php:113 includes/Lists/LicensesList.php:106
+#: includes/Lists/LicensesList.php:701
+msgid "Sold"
+msgstr "فروخته شده"
+
+#: includes/Export.php:55 includes/Settings/Tools.php:99
+#: templates/licenses/page-edit.php:22
+msgid "ID"
+msgstr "شناسه"
+
+#: includes/Enums/LicenseStatus.php:221 includes/Lists/APIKeyList.php:213
+#: includes/Lists/LicensesList.php:725 templates/settings/rest-api-key.php:110
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: includes/Lists/GeneratorsList.php:259 templates/generators/page-add.php:39
+#: templates/generators/page-edit.php:62
+msgid "Character map"
+msgstr "کاراکترها"
+
+#: includes/Lists/GeneratorsList.php:266 templates/generators/page-add.php:119
+#: templates/generators/page-edit.php:142
+msgid "Expires in"
+msgstr "انقضاء در"
+
+#: includes/Lists/LicensesList.php:946 includes/Settings/Tools.php:119
+#: templates/licenses/page-add.php:32 templates/licenses/page-edit.php:48
+msgid "Expires at"
+msgstr "انقضاء در"
+
+#: templates/generators/page-list.php:17 templates/licenses/page-list.php:5
+msgid "Add new"
+msgstr "افزودن"
+
+#: templates/licenses/page-import.php:114 templates/licenses/page-list.php:8
+msgid "Import"
+msgstr "وارد کردن"
+
+#: templates/licenses/page-add.php:91
+msgid "Add"
+msgstr "افزودن"
+
+#: includes/Lists/GeneratorsList.php:231 includes/Lists/LicensesList.php:680
+msgid "day(s)"
+msgstr "روز"
+
+#: includes/Integrations/WooCommerce/MyAccount.php:176
+#: includes/Lists/LicensesList.php:66 includes/Settings/General.php:63
+#: templates/licenses/page-import.php:43 templates/licenses/page-list.php:3
+msgid "License keys"
+msgstr "شماره سريالها"
+
+#: includes/Lists/GeneratorsList.php:34 includes/Settings/Tools.php:198
+#: includes/Settings/Tools.php:230 templates/generators/page-generate.php:26
+#: templates/settings/data-tools.php:59
+msgid "Generator"
+msgstr "مولد شماره سريال"
+
+#: includes/Export.php:58 includes/Lists/LicensesList.php:65
+#: includes/Lists/LicensesList.php:941 includes/Settings/Tools.php:115
+#: templates/licenses/page-add.php:14 templates/licenses/page-edit.php:30
+#: templates/myaccount/lmfwc-view-license-keys.php:50
+#: templates/myaccount/single.php:57
+msgid "License key"
+msgstr "شماره سريال"
+
+#: includes/AdminMenus.php:139 includes/AdminMenus.php:140
+#: includes/Lists/GeneratorsList.php:35 templates/generators/page-list.php:15
+msgid "Generators"
+msgstr "مولدها"
+
+#: includes/Lists/GeneratorsList.php:138 includes/Lists/LicensesList.php:302
+msgid "Edit"
+msgstr "ويرايش"
+
+#: includes/Lists/GeneratorsList.php:83
+msgid "No generators found."
+msgstr "هيچ مولدي يافت نشد."
+
+#: includes/Lists/ActivationsList.php:425 includes/Lists/LicensesList.php:948
+#: includes/Settings/Tools.php:127 templates/generators/page-generate.php:50
+#: templates/licenses/page-add.php:50 templates/licenses/page-edit.php:66
+#: templates/licenses/page-import.php:73
+#: templates/myaccount/single-table-activations.php:48
+msgid "Status"
+msgstr "وضعيت"
+
+#: includes/Lists/LicensesList.php:947 includes/Settings/Tools.php:123
+msgid "Valid for"
+msgstr "معتبر براي"
+
+#: includes/Lists/ActivationsList.php:272
+#: includes/Lists/ActivationsList.php:676 includes/Lists/LicensesList.php:347
+#: includes/Lists/LicensesList.php:779
+#: templates/myaccount/single-table-activations.php:118
+msgid "Deactivate"
+msgstr "غيرفعالسازي"
+
+#: includes/Lists/ActivationsList.php:259
+#: includes/Lists/ActivationsList.php:672 includes/Lists/LicensesList.php:332
+#: includes/Lists/LicensesList.php:778
+#: templates/myaccount/single-table-activations.php:155
+msgid "Activate"
+msgstr "فعالسازي"
+
+#: includes/Lists/LicensesList.php:314
+msgid "Hide"
+msgstr "مخفي"
+
+#: includes/Lists/LicensesList.php:309
+msgid "Show"
+msgstr "نمايش"
+
+#: includes/Enums/LicenseStatus.php:117 includes/Enums/LicenseStatus.php:190
+#: includes/Lists/LicensesList.php:117 includes/Lists/LicensesList.php:707
+msgid "Delivered"
+msgstr "ارسال شده"
+
+#: templates/generators/page-edit.php:15
+msgid "This generator is assigned to the following product(s)"
+msgstr "اين مولد به محصولات زير تخصيص يافته است:"
+
+#: templates/generators/page-edit.php:154
+msgid "Update"
+msgstr "بروزرساني"
+
+#: templates/generators/page-edit.php:135
+msgid "Adds a character set at the end of a license key (separator <b>not</b> included), i.e. for <code>12-AB-34-CD-SUF</code> the suffix is <code>-SUF</code>."
+msgstr "مجموعه‌اي از کاراکترها را در پايان يک شماره سريال اضافه مي کند (شامل جداکننده <b>نمي</b> شود)، مثلاً براي <code>12-AB-34-CD-SUF</code> پسوند عبارت است از <code>-SUF</code>."
+
+#: templates/generators/page-edit.php:123
+msgid "Adds a character set at the start of a license key (separator <b>not</b> included), i.e. for <code>PRE-12-AB-34-CD</code> the prefix is <code>PRE-</code>."
+msgstr "مجموعه اي از کاراکترها را در آغاز يک شماره سريال اضافه مي‌کند (شامل جداکننده <b>نمي</b> شود) ، يعني براي <code>PRE-12-AB-34-CD</code> پيشوند عبارت است از <code>PRE-</code>."
+
+#: templates/generators/page-edit.php:111
+msgid "The special character separating the individual chunks, i.e. for <code>12-AB-34-CD</code> the separator is <code>-</code>."
+msgstr "کاراکتر ويژه جداکننده‌ي قطعات شماره سريال از هم (بعنوان مثال براي <code> 12-AB-34-CD </code> جداکننده <code>-</code> است)."
+
+#: templates/generators/page-edit.php:99
+msgid "The character length of an individual chunk, i.e. for <code>12-AB-34-CD</code> the chunk length is <code>2</code>."
+msgstr "تعداد کاراکتر هر يك از قطعات شماره سريال (مثلاً در <code> 12-AB-34-CD </code> طول قطعه عبارت است<code>2</code> است)."
+
+#: templates/generators/page-edit.php:84
+msgid "The number of separated character sets, i.e. for <code>12-AB-34-CD</code> the number of chunks is <code>4</code>."
+msgstr "تعداد مجموعه کاراکترهاي جدا شده (مثلاً براي <code>12-AB-34-CD</code> تعداد قطعه‌ها عبارت است از<code>4</code>)."
+
+#: templates/generators/page-edit.php:11
+msgid "Edit generator"
+msgstr "ويرايش مولد"
+
+#: templates/generators/page-add.php:131 templates/licenses/page-edit.php:156
+msgid "Save"
+msgstr "ذخيره"
+
+#: templates/generators/page-add.php:124 templates/generators/page-edit.php:147
+msgid "The number of days for which the license key is valid after purchase. Leave blank if it doesn't expire."
+msgstr "اين گزينه بيانگر مدت زمان اعتبار شماره سريالها پس از خريداري آنهاست (چنانچه شماره سريالها فاقد تاريخ انقضاء هستند، آنرا خالي بگذاريد)."
+
+#: templates/generators/page-add.php:112
+msgid "Adds a word at the end (separator <b>not</b> included), i.e. <kbd>12-AB-34-CD<b>-SUF</b></kbd>."
+msgstr "يک کلمه در پايان اضافه مي کند(<b>بدون جداکننده</b>) ، مثل. <kbd>12-AB-34-CD<b>-SUF</b></kbd>."
+
+#: templates/generators/page-add.php:100
+msgid "Adds a word at the start (separator <b>not</b> included), i.e. <kbd><b>PRE-</b>12-AB-34-CD</kbd>."
+msgstr "يک کلمه در شروع اضافه مي‌کند(<b>بدون</b> جداکننده)، مثل <kbd><b>PRE-</b>12-AB-34-CD</kbd>."
+
+#: includes/Lists/GeneratorsList.php:264 templates/generators/page-add.php:95
+#: templates/generators/page-edit.php:118
+msgid "Prefix"
+msgstr "پيشوند"
+
+#: templates/generators/page-add.php:88
+msgid "i.e. for \"12-AB-34-CD\" the separator is <kbd>-</kbd>."
+msgstr "براي مثال در \"12-AB-34-CD\" جدا کننده عبارت است از <kbd>-</kbd>."
+
+#: templates/generators/page-add.php:87 templates/generators/page-add.php:99
+#: templates/generators/page-add.php:111 templates/generators/page-add.php:123
+#: templates/generators/page-edit.php:110
+#: templates/generators/page-edit.php:122
+#: templates/generators/page-edit.php:134
+#: templates/generators/page-edit.php:146
+msgid "Optional."
+msgstr "اختياري."
+
+#: templates/generators/page-add.php:76
+msgid "i.e. for \"12-AB-34-CD\" the chunk length is <kbd>2</kbd>."
+msgstr "براي مثال در \"12-AB-34-CD\" طول قطعه عبارت است از <kbd>2</kbd>."
+
+#: includes/Lists/GeneratorsList.php:261 templates/generators/page-add.php:69
+#: templates/generators/page-edit.php:92
+msgid "Chunk length"
+msgstr "طول قطعه"
+
+#: templates/generators/page-add.php:61
+msgid "i.e. for \"12-AB-34-CD\" the number of chunks is <kbd>4</kbd>."
+msgstr "براي مثال در \"12-AB-34-CD\" تعداد قطعه‌ها عبارت است از <kbd>4</kbd>."
+
+#: includes/Lists/GeneratorsList.php:260 templates/generators/page-add.php:54
+#: templates/generators/page-edit.php:77
+msgid "Number of chunks"
+msgstr "تعداد قطعه"
+
+#: templates/generators/page-add.php:46
+msgid "i.e. for \"12-AB-34-CD\" the character map is <kbd>ABCD1234</kbd>."
+msgstr "براي مثال در \"12-AB-34-CD\" کاراکترهاي اخصتاصي عبارت است از <kbd>ABCD1234</kbd>."
+
+#: templates/generators/page-add.php:22 templates/generators/page-edit.php:45
+msgid "A short name to describe the generator."
+msgstr "يک نام کوتاه براي توصيف مولد شماره سريال."
+
+#: templates/generators/page-add.php:21 templates/generators/page-add.php:45
+#: templates/generators/page-add.php:60 templates/generators/page-add.php:75
+#: templates/generators/page-edit.php:44 templates/generators/page-edit.php:68
+#: templates/generators/page-edit.php:83 templates/generators/page-edit.php:98
+#: templates/settings/rest-api-key.php:36
+#: templates/settings/rest-api-key.php:65
+#: templates/settings/rest-api-key.php:87
+msgid "Required."
+msgstr "ضروري."
+
+#: templates/generators/page-add.php:3
+msgid "Add new generator"
+msgstr "اضافه کردن مولد جديد"
+
+#: templates/licenses/page-import.php:58
+msgid "Number of days for which the license key is valid after purchase. Leave blank if the license key does not expire."
+msgstr "تعداد روزي که شماره سريال پس از خريد معتبر است (در صورتي که شماره سريال تاريخ انقضاء ندارد، اين گزينه را خالي بگذاريد)."
+
+#: templates/emails/lmfwc-email-order-license-notice.php:19
+msgid "Your license keys will shortly be delivered. It can take up to 24 hours, but usually doesn't take longer than a few minutes. Thank you for your patience."
+msgstr "شماره سريال شما به زودي ارسال خواهد شد. گرچه پروسه ارسال ممكن است تا 24 ساعت به طول بيانجامد، اما معمولاً بيش از چند دقيقه طول نمي‌کشد. پيشاپيش از صبر و شکيبايي شما سپاسگزاريم."
+
+#. Plugin Name of the plugin
+#: includes/AdminMenus.php:471
+#: includes/Integrations/WooCommerce/ProductData.php:313
+msgid "License Manager for WooCommerce"
+msgstr "مديريت شماره سريال براي ووکامرس"
+
+#: includes/Enums/LicenseStatus.php:109 includes/Enums/LicenseStatus.php:206
+#: includes/Lists/ActivationsList.php:362
+#: includes/Lists/ActivationsList.php:570 includes/Lists/LicensesList.php:139
+#: includes/Lists/LicensesList.php:719
+msgid "Inactive"
+msgstr "غيرقابل فروش"
+
+#: includes/Enums/LicenseStatus.php:105 includes/Enums/LicenseStatus.php:198
+#: includes/Lists/ActivationsList.php:367
+#: includes/Lists/ActivationsList.php:559 includes/Lists/LicensesList.php:128
+#: includes/Lists/LicensesList.php:713
+#: templates/myaccount/single-table-activations.php:80
+msgid "Active"
+msgstr "قابل فروش"
+
+#: templates/generators/page-edit.php:69
+msgid "The characters which will be used for generating a license key, i.e. for <code>12-AB-34-CD</code> the character map is <code>ABCD1234</code>."
+msgstr "کاراکترهايي که براي توليد شماره سريال مورد استفاده قرار ميگيرند (به عنوان مثال در مورد<code>12-AB-34-CD</code>، کاراکترها عبارتست از <code>ABCD1234</code>)."
+
+#: templates/generators/page-list.php:24
+msgid "You can not delete generators which are still assigned to active products! To delete those, please remove the generator from all of its assigned products first."
+msgstr "شما نميتوانيد مولدهايي را که هنوز به محصولي اختصاص يافته‌اند، حذف کنيد. براي حذف چنين مولدهايي، لطفاً ابتدا مولد مربوطه را از تمام محصولات مرتبط با آن حذف کنيد."
+
+#: includes/Lists/GeneratorsList.php:373
+msgid "No generators were selected."
+msgstr "هيچ مولدي انتخاب نشده است."
+
+#: includes/Lists/LicensesList.php:985
+msgid "No license keys were selected."
+msgstr "هيچ شماره سريالي انتخاب نشده است."
+
+#: includes/Import.php:103
+msgid "%d license key(s) skipped because they already exist."
+msgstr "بدليل تكراري بودن، تعداد %d شماره سريال كنار گذاشته شد."
+
+#: templates/generators/page-generate.php:44
+msgid "Define how many license keys will be generated."
+msgstr "تعداد شماره سريالهايي كه توليد خواهد شد را مشخص ميكند."
+
+#: templates/generators/page-generate.php:41
+msgid "Amount"
+msgstr "مقدار"
+
+#: templates/generators/page-generate.php:35
+msgid "The selected generator's rules will be used to generate the license keys."
+msgstr "قوانين مولد شماره سريالي كه انتخاب كرديد، براي توليد شماره سريالها مورد استفاده قرار خواهد گرفت."
+
+#: templates/generators/page-generate.php:81
+#: templates/generators/page-list.php:20
+msgid "Generate"
+msgstr "توليد"
+
+#: templates/licenses/page-import.php:25
+msgid "You can either upload a file containing the license keys, or copy-paste them into a text field."
+msgstr "شما علاوه بر اينكه ميتوانيد فايل حاوي شماره سريالها را آپلود كنيد، ميتوانيد آنها را در كادر متني نيز كپي-پيست كنيد."
+
+#: templates/licenses/page-import.php:23
+msgid "Clipboard"
+msgstr "كليپ‌بورد"
+
+#: templates/licenses/page-import.php:19
+msgid "File upload"
+msgstr "آپلود فايل"
+
+#: templates/generators/page-generate.php:74 templates/licenses/page-add.php:74
+#: templates/licenses/page-edit.php:99 templates/licenses/page-edit.php:123
+#: templates/licenses/page-import.php:97
+msgid "The product to which the license keys will be assigned."
+msgstr "محصولي كه شماره سريالها به آن اختصاص خواهند يافت."
+
+#: templates/licenses/page-add.php:35 templates/licenses/page-edit.php:51
+msgid "The exact date this license key expires on. Leave blank if the license key does not expire. Cannot be used at the same time as the \"Valid for (days)\" field."
+msgstr "تاريخ دقيقي كه اين شماره سريال در آن تاريخ منقضي خواهد شد (اگر قرار نيست شماره سريال منقضي شود، اين كادر را خالي بگذاريد). دقت شود كه اگر از گزينه‌ي \"تعداد روزهاي معتبر بودن\" استفاده كنيد، ديگر مجاز به استفاده از اين گزينه نخواهيد بود."
+
+#: templates/licenses/page-add.php:26 templates/licenses/page-edit.php:42
+msgid "Number of days for which the license key is valid after purchase. Leave blank if the license key does not expire. Cannot be used at the same time as the \"Expires at\" field."
+msgstr "تعداد روزهايي كه شماره سريال پس از خريد معتبر خواهد بود (اگر قرار نيست شماره سريال منقضي شود، اين كادر را خالي بگذاريد). دقت شود كه اگر از گزينه‌ي \"منقضي شدن در\" استفاده كنيد، ديگر مجاز به استفاده از اين گزينه نخواهيد بود."
+
+#: templates/myaccount/lmfwc-view-license-keys.php:86
+msgid "View"
+msgstr "مشاهده"
+
+#: templates/myaccount/lmfwc-view-license-keys.php:32
+msgid "Your license keys"
+msgstr "شماره سريالهاي شما"
+
+#: includes/Lists/LicensesList.php:781
+msgid "Mark as delivered"
+msgstr "بعنوان \"ارسال‌شده\" برچسب‌گذاري شد"
+
+#: includes/Lists/LicensesList.php:780
+msgid "Mark as sold"
+msgstr "بعنوان \"فروخته‌شده\" برچسب‌گذاري شد"

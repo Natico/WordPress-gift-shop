@@ -1,0 +1,13 @@
+@import "partial/fonts";
+
+
+[data-page-type='shop-page'] {
+
+    @import 'partial/ltr';
+
+
+    &[data-lang-dir="rtl"] {
+        @import 'partial/rtl';
+    }
+
+}

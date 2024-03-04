@@ -1,0 +1,17 @@
+body {
+    direction: rtl !important;
+    // background-color: red !important;
+    font-family: IRANSansX;
+
+    select{
+        text-align: right;
+    }
+
+    .woocommerce-breadcrumb{
+        i{
+            &.fa.fa-angle-right{
+                transform: scaleX(-1);
+            } 
+        }
+    }
+}
